@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Receipts_HM</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7ecac55-4455-4a11-a4c3-c268aa224750</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>c637d270-3413-4b3a-a0c1-1cb533e5a048</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Login Credentials</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>c637d270-3413-4b3a-a0c1-1cb533e5a048</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Email</value>
+      <variableId>f9d016b9-b701-4155-a6d7-038ae934e24e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>c637d270-3413-4b3a-a0c1-1cb533e5a048</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>c3b2dd1f-a092-43ad-b6c8-162553834f51</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f9d016b9-b701-4155-a6d7-038ae934e24e</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c3b2dd1f-a092-43ad-b6c8-162553834f51</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>
