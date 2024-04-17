@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Scrap</name>
+   <name>warehousesSubMenu</name>
    <tag></tag>
-   <elementGuidId>f536b5b3-b3ca-442c-84d3-9b841f553c93</elementGuidId>
+   <elementGuidId>694f3953-a16f-47b8-b2b1-7db561ab7c03</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Scrap')]</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>a.o-dropdown-item.dropdown-item.o-navigable.o_dropdown_menu_group_entry.focus</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Warehouses')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=menuitem[name=&quot;Scrap&quot;i]</value>
+         <value>internal:role=menuitem[name=&quot;Warehouses&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b0d6641b-460c-4787-848c-955cb4659559</webElementGuid>
+      <webElementGuid>5231a585-7982-4ad6-9b08-9c83f357f6fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>o-dropdown-item dropdown-item o-navigable o_dropdown_menu_group_entry focus</value>
-      <webElementGuid>5696526e-6572-4914-8863-95556fad588f</webElementGuid>
+      <webElementGuid>c608f662-82ba-41c7-850d-e74c46a12247</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>25dd58d2-92d1-438c-9d69-5c9c051f4bb6</webElementGuid>
+      <webElementGuid>f5943a5e-346b-4f8a-9a67-bc33eebe78e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,39 +53,39 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>663251bf-d790-47b8-b579-4dc56f01264e</webElementGuid>
+      <webElementGuid>153b794a-a9d8-4d32-aac4-22679abb07d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/odoo/action-234</value>
-      <webElementGuid>bd42f8ca-321a-4eed-8793-ad06a89b56df</webElementGuid>
+      <value>/odoo/action-242</value>
+      <webElementGuid>c7ede050-3543-45d4-8f1b-e04e829831c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-menu-xmlid</name>
       <type>Main</type>
-      <value>stock.menu_stock_scrap</value>
-      <webElementGuid>ad8bbad6-7d34-4200-a307-885e88c2f0ba</webElementGuid>
+      <value>stock.menu_action_warehouse_form</value>
+      <webElementGuid>0e4622e2-234e-42e7-b1ec-d7b3305c2195</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-section</name>
       <type>Main</type>
-      <value>140</value>
-      <webElementGuid>8f401388-e1be-4707-905c-a915251b7e01</webElementGuid>
+      <value>144</value>
+      <webElementGuid>9b8d83b6-c080-4111-928d-c13c68ed894f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Scrap</value>
-      <webElementGuid>453fd7d5-c8ae-4ab1-b14a-21364fcaa83f</webElementGuid>
+      <value>Warehouses</value>
+      <webElementGuid>2fb637d3-1ce0-4653-a4a5-39f3571bea78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,78 +93,78 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;o_web_client&quot;]/div[@class=&quot;o-main-components-container&quot;]/div[@class=&quot;o-overlay-container&quot;]/div[@class=&quot;o_popover popover mw-100 o-dropdown--menu dropdown-menu mx-0&quot;]/a[@class=&quot;o-dropdown-item dropdown-item o-navigable o_dropdown_menu_group_entry focus&quot;]</value>
-      <webElementGuid>824fc2c1-80f8-43cc-9839-251043a95420</webElementGuid>
+      <webElementGuid>0c453b87-6ca9-4098-ba00-1b416fe5c791</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Scrap')]</value>
-      <webElementGuid>7a265ebe-c05a-4cdb-ba4c-0ab70968b2b5</webElementGuid>
+      <value>//a[contains(text(),'Warehouses')]</value>
+      <webElementGuid>2fd9a412-b1ff-4f43-a00b-d32fd1d62947</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Physical Inventory'])[1]/following::a[1]</value>
-      <webElementGuid>309260c3-f108-4473-b4ec-59bb5a8cbdc2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Warehouse Management'])[1]/following::a[1]</value>
+      <webElementGuid>b3e9ca0e-b9a2-462a-9aa9-08b3a90f8cd3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Adjustments'])[1]/following::a[2]</value>
-      <webElementGuid>d7eb4d06-21b5-45ef-90f3-57335c9a757e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='test2'])[3]/following::a[1]</value>
+      <webElementGuid>c410fea7-40ae-496b-a2f3-5164a40b6f45</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Procurement'])[1]/preceding::a[1]</value>
-      <webElementGuid>8eaf2a60-0d97-4b01-998f-691d69b035f8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Locations'])[1]/preceding::a[1]</value>
+      <webElementGuid>7e28bf42-ef82-470f-b816-c5cb82a3efbf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Replenishment'])[1]/preceding::a[1]</value>
-      <webElementGuid>601a14ac-9a22-4ce0-b35f-9dbe646d1ca7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Operations Types'])[1]/preceding::a[2]</value>
+      <webElementGuid>aa457037-a5b1-45e0-85c4-4400cc303ad5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Scrap']/parent::*</value>
-      <webElementGuid>23e5c88f-5b32-46a4-9ca3-9a2169096def</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Warehouses']/parent::*</value>
+      <webElementGuid>c9f6c6ec-bb74-43bd-8fd0-aa02726595b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/odoo/action-234')]</value>
-      <webElementGuid>53ff8db5-308f-48ef-bd90-759130420ba2</webElementGuid>
+      <value>//a[contains(@href, '/odoo/action-242')]</value>
+      <webElementGuid>1b6722a8-8616-4a13-b5fc-c76d72989b8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[5]</value>
-      <webElementGuid>ffdb4634-57d0-4cb7-8161-149d574a07a8</webElementGuid>
+      <value>//div[2]/div[3]/div/a</value>
+      <webElementGuid>e44fd5ca-55df-423f-a868-9d79a795ca34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/odoo/action-234' and (text() = 'Scrap' or . = 'Scrap')]</value>
-      <webElementGuid>d6d6f4b8-9eda-4c7d-b52f-f18eff4c9be0</webElementGuid>
+      <value>//a[@href = '/odoo/action-242' and (text() = 'Warehouses' or . = 'Warehouses')]</value>
+      <webElementGuid>cd48ba14-4c7d-4e29-8d74-fc1c932f3755</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

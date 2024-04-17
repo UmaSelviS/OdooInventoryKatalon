@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create a New Warehouse</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>26826bb2-9d7f-4262-b74d-351e32aae372</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>d1eed45c-ee1d-4c88-90a7-d7da9dd386ce</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Warehouse Names</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>d1eed45c-ee1d-4c88-90a7-d7da9dd386ce</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>WarehouseName</value>
+      <variableId>c949b2f2-fb49-4745-ba9f-d70ac8e9d6f4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d1eed45c-ee1d-4c88-90a7-d7da9dd386ce</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>ShortName</value>
+      <variableId>8763517a-d235-4026-adf7-74a7f9f2a58a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c949b2f2-fb49-4745-ba9f-d70ac8e9d6f4</id>
+      <masked>false</masked>
+      <name>WarehouseName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8763517a-d235-4026-adf7-74a7f9f2a58a</id>
+      <masked>false</masked>
+      <name>ShortName</name>
+   </variable>
+</TestCaseEntity>
