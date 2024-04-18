@@ -19,7 +19,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Login to Odoo Inventory ERP System'), [('Email') : Email, ('Password') : password], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Create Receipts/Page_/inventoryLink'))
+WebUI.click(findTestObject('Object Repository/Create Receipts/Page/inventoryLink'))
 
 WebUI.click(findTestObject('Object Repository/Page_Inventory Overview/span_Operations'))
 

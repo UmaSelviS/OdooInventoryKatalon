@@ -19,33 +19,28 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login to Odoo Inventory ERP System'), [('Email') : Email, ('Password') : Password], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Create Receipts/Page/inventoryLink'))
-
+//WebUI.verifyElementVisible(findTestObject('Create Receipts/Page/inventoryLink'))
 WebUI.click(findTestObject('Create Receipts/Page/inventoryLink'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Create Receipts/Page_Inventory Overview/receipts'))
+//WebUI.verifyElementVisible(findTestObject('Object Repository/Create Receipts/Page_Inventory Overview/span_Receipts (1)'))
+WebUI.click(findTestObject('Create Receipts/Page_Inventory Overview/Dropdown'))
 
-WebUI.click(findTestObject('Object Repository/Create Receipts/Page_Inventory Overview/receipts'))
+//WebUI.verifyElementVisible(findTestObject('Create Receipts Second Method/Page_Inventory Overview/newbuttonLink'))
+WebUI.click(findTestObject('Create Receipts/Page_Inventory Overview/newLink'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Create Receipts/Page_Main Warehouse Receipts/button_New'))
+//WebUI.verifyElementVisible(findTestObject('Object Repository/Create Receipts/Page/receiveFromdropdown (1)'))
+WebUI.click(findTestObject('Create Receipts/Page/receiveFromdropdown (1)'))
 
-WebUI.click(findTestObject('Object Repository/Create Receipts/Page_Main Warehouse Receipts/button_New'))
+WebUI.click(findTestObject('Create Receipts/Page/contactName'))
 
-WebUI.click(findTestObject('Object Repository/Create Receipts/Page/input_Receive From_partner_id_0'))
-
-WebUI.click(findTestObject('Object Repository/Create Receipts/Page/contactName'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Create Receipts/Page/Add a line_Link'))
-
-WebUI.click(findTestObject('Object Repository/Create Receipts/Page/Add a line_Link'))
+//WebUI.verifyElementVisible(findTestObject('Create Receipts/Page/Add a line_Link'))
+WebUI.click(findTestObject('Create Receipts/Page/Add a line_Link'))
 
 WebUI.click(findTestObject('Create Receipts/Page/productlistDropdown'))
 
-WebUI.click(findTestObject('Object Repository/Create Receipts/Page/productName'))
+WebUI.click(findTestObject('Create Receipts/Page/productName'))
 
 WebUI.setText(findTestObject('Create Receipts/Page/inputDemandField'), '500')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Create Receipts/Page/validateButton'))
-
-WebUI.click(findTestObject('Object Repository/Create Receipts/Page/validateButton'))
+WebUI.click(findTestObject('Create Receipts/Page/validateButton'))
 

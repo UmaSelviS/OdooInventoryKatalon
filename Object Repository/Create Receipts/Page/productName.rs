@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_8K Monitor</name>
+   <name>productName</name>
    <tag></tag>
    <elementGuidId>a88519c6-812f-4415-9613-1c8d66df448b</elementGuidId>
    <selectorCollection>

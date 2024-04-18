@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Validate</name>
+   <name>validateButton</name>
    <tag></tag>
    <elementGuidId>2c65a114-baa6-40a5-89a1-c6611787bfe4</elementGuidId>
    <selectorCollection>
