@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_Done</name>
+   <name>Done_textverification</name>
    <tag></tag>
    <elementGuidId>c0b7832e-7c7e-4a0e-82b7-119d18ed6e6b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//td[@name='state']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>td[name=&quot;state&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[@name='state']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

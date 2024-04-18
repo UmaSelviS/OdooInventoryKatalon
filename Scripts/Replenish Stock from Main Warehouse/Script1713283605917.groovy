@@ -22,15 +22,5 @@ WebUI.callTestCase(findTestCase('Login to Odoo Inventory ERP System'), [('Email'
 
 WebUI.clickImage(findTestObject('homeMenuPage/inventoryLink'))
 
-WebUI.findWebElements(findTestObject(null), 0)
-
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
+WebUI.click(findTestObject(null))
 
