@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>ModifyAWarehouse</name>
+   <name>Modify a Warehouse</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>eaee5a6d-5a3c-4a10-9ed3-b8431e20288a</testCaseGuid>
