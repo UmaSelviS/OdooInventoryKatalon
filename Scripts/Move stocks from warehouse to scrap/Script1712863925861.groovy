@@ -21,11 +21,11 @@ WebUI.callTestCase(findTestCase('Login to Odoo Inventory ERP System'), [('Email'
 
 WebUI.click(findTestObject('Object Repository/homeMenuPage/inventoryLink'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('inventoryPage/OperationsLink'))
 
+WebUI.click(findTestObject('Operations_page/Scrap_link'))
 
-
-WebUI.click(findTestObject('Object Repository/Scrap Orders_page/NewScarp order_btn'))
+WebUI.click(findTestObject('newScrapOders_page/NewScrap_btn'))
 
 WebUI.click(findTestObject('Object Repository/Page_New/input_Product_product_id_0'))
 
