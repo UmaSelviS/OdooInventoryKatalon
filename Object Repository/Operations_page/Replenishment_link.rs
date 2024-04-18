@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Scrap</name>
+   <name>Replenishment_link</name>
    <tag></tag>
-   <elementGuidId>f536b5b3-b3ca-442c-84d3-9b841f553c93</elementGuidId>
+   <elementGuidId>b6051e45-89fe-4bd5-a640-4bf8b04fa2f6</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Scrap')]</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>a.o-dropdown-item.dropdown-item.o-navigable.o_dropdown_menu_group_entry.focus</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Replenishment')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=menuitem[name=&quot;Scrap&quot;i]</value>
+         <value>internal:role=menuitem[name=&quot;Replenishment&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b0d6641b-460c-4787-848c-955cb4659559</webElementGuid>
+      <webElementGuid>102d1b84-0d0f-41e0-b436-bd0b66dadc20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>o-dropdown-item dropdown-item o-navigable o_dropdown_menu_group_entry focus</value>
-      <webElementGuid>5696526e-6572-4914-8863-95556fad588f</webElementGuid>
+      <webElementGuid>d2eaced4-c283-4765-b553-7a483906f3aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>25dd58d2-92d1-438c-9d69-5c9c051f4bb6</webElementGuid>
+      <webElementGuid>39fc3e5b-f0dc-4b8a-8444-af0954e88411</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,39 +53,39 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>663251bf-d790-47b8-b579-4dc56f01264e</webElementGuid>
+      <webElementGuid>98b691b0-d2da-4768-a95b-0993f78a41a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/odoo/action-234</value>
-      <webElementGuid>bd42f8ca-321a-4eed-8793-ad06a89b56df</webElementGuid>
+      <value>/odoo/action-277</value>
+      <webElementGuid>49bd5054-c463-4780-95cc-0dad3f65ee3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-menu-xmlid</name>
       <type>Main</type>
-      <value>stock.menu_stock_scrap</value>
-      <webElementGuid>ad8bbad6-7d34-4200-a307-885e88c2f0ba</webElementGuid>
+      <value>stock.menu_reordering_rules_replenish</value>
+      <webElementGuid>04a5b5b9-77b8-4b4b-b7c2-69aac394bb3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-section</name>
       <type>Main</type>
-      <value>140</value>
-      <webElementGuid>8f401388-e1be-4707-905c-a915251b7e01</webElementGuid>
+      <value>158</value>
+      <webElementGuid>537cd8d8-170e-43ae-ae38-b8501bfaa30f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Scrap</value>
-      <webElementGuid>453fd7d5-c8ae-4ab1-b14a-21364fcaa83f</webElementGuid>
+      <value>Replenishment</value>
+      <webElementGuid>2e646916-dc58-4652-aa9c-f20992dab20e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,78 +93,62 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;o_web_client&quot;]/div[@class=&quot;o-main-components-container&quot;]/div[@class=&quot;o-overlay-container&quot;]/div[@class=&quot;o_popover popover mw-100 o-dropdown--menu dropdown-menu mx-0&quot;]/a[@class=&quot;o-dropdown-item dropdown-item o-navigable o_dropdown_menu_group_entry focus&quot;]</value>
-      <webElementGuid>824fc2c1-80f8-43cc-9839-251043a95420</webElementGuid>
+      <webElementGuid>451d3d95-6a92-43c2-9daa-891fd050aa8f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Scrap')]</value>
-      <webElementGuid>7a265ebe-c05a-4cdb-ba4c-0ab70968b2b5</webElementGuid>
+      <value>//a[contains(text(),'Replenishment')]</value>
+      <webElementGuid>023f6ab9-1f74-41ad-ad39-e3e5d0e8d819</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Physical Inventory'])[1]/following::a[1]</value>
-      <webElementGuid>309260c3-f108-4473-b4ec-59bb5a8cbdc2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Procurement'])[1]/following::a[1]</value>
+      <webElementGuid>615456a7-4a2c-4fd0-8d0d-1d8749528e90</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Adjustments'])[1]/following::a[2]</value>
-      <webElementGuid>d7eb4d06-21b5-45ef-90f3-57335c9a757e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Scrap'])[1]/following::a[1]</value>
+      <webElementGuid>78265272-dbd1-4509-b5ce-640736421d21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Procurement'])[1]/preceding::a[1]</value>
-      <webElementGuid>8eaf2a60-0d97-4b01-998f-691d69b035f8</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Replenishment'])[1]/preceding::a[1]</value>
-      <webElementGuid>601a14ac-9a22-4ce0-b35f-9dbe646d1ca7</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Scrap']/parent::*</value>
-      <webElementGuid>23e5c88f-5b32-46a4-9ca3-9a2169096def</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Replenishment']/parent::*</value>
+      <webElementGuid>de57efed-6e40-450c-b0ea-c5dc363469e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/odoo/action-234')]</value>
-      <webElementGuid>53ff8db5-308f-48ef-bd90-759130420ba2</webElementGuid>
+      <value>//a[contains(@href, '/odoo/action-277')]</value>
+      <webElementGuid>78334d86-affd-4569-8722-e063ef7fea1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[5]</value>
-      <webElementGuid>ffdb4634-57d0-4cb7-8161-149d574a07a8</webElementGuid>
+      <value>//a[6]</value>
+      <webElementGuid>a1174a73-f52f-4c19-855c-89e55e7cdfc6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/odoo/action-234' and (text() = 'Scrap' or . = 'Scrap')]</value>
-      <webElementGuid>d6d6f4b8-9eda-4c7d-b52f-f18eff4c9be0</webElementGuid>
+      <value>//a[@href = '/odoo/action-277' and (text() = 'Replenishment' or . = 'Replenishment')]</value>
+      <webElementGuid>b3e62658-e939-4176-a57b-3bd0a6c79872</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

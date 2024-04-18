@@ -23,9 +23,9 @@ WebUI.click(findTestObject('Object Repository/homeMenuPage/inventoryLink'))
 
 WebUI.click(findTestObject('Object Repository/Page_Inventory Overview/span_Operations'))
 
-WebUI.click(findTestObject('Object Repository/Page_Inventory Overview/a_Scrap'))
+WebUI.click(findTestObject('Operations_page/Scrap_link'))
 
-WebUI.click(findTestObject('Object Repository/Page_Scrap Orders/button_New'))
+WebUI.click(findTestObject('Object Repository/Scrap Orders_page/NewScarp order_btn'))
 
 WebUI.click(findTestObject('Object Repository/Page_New/input_Product_product_id_0'))
 
@@ -41,7 +41,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_SP00008/p_Scrap c
 
 WebUI.click(findTestObject('Object Repository/Page_SP00008/a_Scrap Orders'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Scrap Orders/td_Done'), 'Done')
+WebUI.verifyElementText(findTestObject('Object Repository/Scrap Orders_page/Done_textverification'), 'Done')
 
 WebUI.closeBrowser()
 
