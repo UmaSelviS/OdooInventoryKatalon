@@ -23,9 +23,9 @@ WebUI.verifyElementVisible(findTestObject('Create Receipts/Page/inventoryLink'))
 
 WebUI.click(findTestObject('Create Receipts/Page/inventoryLink'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Create Receipts/Page_Inventory Overview/receipts'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Inventory Overview/receipts'))
 
-WebUI.click(findTestObject('Object Repository/Create Receipts/Page_Inventory Overview/receipts'))
+WebUI.click(findTestObject('Object Repository/Page_Inventory Overview/receipts'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Create Receipts/Page_Main Warehouse Receipts/button_New'))
 

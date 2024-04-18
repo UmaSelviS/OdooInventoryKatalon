@@ -23,10 +23,10 @@ WebUI.callTestCase(findTestCase('Login to Odoo Inventory ERP System'), [('Email'
 WebUI.click(findTestObject('Create Receipts/Page/inventoryLink'))
 
 //WebUI.verifyElementVisible(findTestObject('Object Repository/Create Receipts/Page_Inventory Overview/span_Receipts (1)'))
-WebUI.click(findTestObject('Create Receipts/Page_Inventory Overview/Dropdown'))
+WebUI.click(findTestObject('Page_Inventory Overview/Dropdown'))
 
 //WebUI.verifyElementVisible(findTestObject('Create Receipts Second Method/Page_Inventory Overview/newbuttonLink'))
-WebUI.click(findTestObject('Create Receipts/Page_Inventory Overview/newLink'))
+WebUI.click(findTestObject('Page_Inventory Overview/newLink'))
 
 //WebUI.verifyElementVisible(findTestObject('Object Repository/Create Receipts/Page/receiveFromdropdown (1)'))
 WebUI.click(findTestObject('Create Receipts/Page/receiveFromdropdown (1)'))
