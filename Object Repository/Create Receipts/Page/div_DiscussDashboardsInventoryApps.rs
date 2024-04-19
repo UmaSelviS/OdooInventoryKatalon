@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_DiscussDashboardsInventoryApps</name>
+   <tag></tag>
+   <elementGuidId>9e4f2376-c1a0-4a62-b3d4-83d6d76af329</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='freelance25'])[1]/following::div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.o_home_menu.h-100.overflow-auto</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=&quot;DiscussDashboardsInventoryApps&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f4a438b9-936d-468b-89c5-73b6bb218cd0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o_home_menu h-100 overflow-auto</value>
+      <webElementGuid>dec84aee-28d4-4bee-abf8-f81b5d0616a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DiscussDashboardsInventoryApps</value>
+      <webElementGuid>cc3c4c74-a9a4-4b81-a6de-9f14696f31ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;o_web_client o_home_menu_background&quot;]/div[@class=&quot;o_action_manager&quot;]/div[@class=&quot;o_home_menu h-100 overflow-auto&quot;]</value>
+      <webElementGuid>aee03a90-450a-4f49-ab34-975d337bb7b9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='freelance25'])[1]/following::div[2]</value>
+      <webElementGuid>3939f15e-6084-46f7-ad21-f98ba3cd3317</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//body/div/div</value>
+      <webElementGuid>c2b831dc-4cf1-4b17-bb1d-94ad55db0c49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'DiscussDashboardsInventoryApps' or . = 'DiscussDashboardsInventoryApps')]</value>
+      <webElementGuid>ad33f32e-c282-49a6-bf04-9f0450f17d08</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
