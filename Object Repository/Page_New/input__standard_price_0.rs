@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>9b5a9818-4d5c-4311-ac28-8142c4466c35</webElementGuid>
+      <webElementGuid>50882ba3-d722-4d38-865d-dd0b8d8543da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>o_input flex-grow-1 flex-shrink-1</value>
-      <webElementGuid>e24afc0c-6cef-4dc1-a788-72bf719190a3</webElementGuid>
+      <webElementGuid>67d2e200-4f38-4af3-8cf9-12b2a91a4728</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>f545ed5f-5c17-4a7d-8af1-d1a6879bfaa3</webElementGuid>
+      <webElementGuid>605a0eff-5876-46bf-957c-10d5e28425bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>id</name>
       <type>Main</type>
       <value>standard_price_0</value>
-      <webElementGuid>582048ec-504f-4bb3-a09b-bc4339489699</webElementGuid>
+      <webElementGuid>83b3c145-d50d-423d-9ee1-17561c77d13b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>b8c36e1c-2d11-4cfb-b62e-c1244cc642d0</webElementGuid>
+      <webElementGuid>55594281-cbf7-4033-8e3b-cc14fc0d060a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;standard_price_0&quot;)</value>
-      <webElementGuid>2558a888-ff05-4b07-8641-252fb4a06b9a</webElementGuid>
+      <webElementGuid>354043b8-1cbd-495b-8364-ce50c1601dde</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='standard_price_0']</value>
-      <webElementGuid>3af1c7b6-ee11-4729-ac3c-941b5b52927f</webElementGuid>
+      <webElementGuid>6fcea3e0-32c8-426a-bdf8-9bc2d1dc4661</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div/div/input</value>
-      <webElementGuid>a2774ecc-a324-4486-b3c1-79f51f2135d3</webElementGuid>
+      <webElementGuid>77c5fbfd-a3a1-414d-b4b4-b98eec02e91b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'standard_price_0' and @type = 'text']</value>
-      <webElementGuid>4c0a1b19-23c5-4c05-81b5-38fd826ea92a</webElementGuid>
+      <webElementGuid>c3c9f000-0511-4498-8215-66732a1ea24b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

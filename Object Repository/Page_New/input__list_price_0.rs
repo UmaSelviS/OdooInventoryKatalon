@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>66f1154d-523b-4d1c-9e78-1460a0f30e4f</webElementGuid>
+      <webElementGuid>45f1209a-2096-4171-9d2d-d15b3a41bf0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>o_input flex-grow-1 flex-shrink-1</value>
-      <webElementGuid>2c78057d-2444-4a92-9ac5-672022ad942f</webElementGuid>
+      <webElementGuid>471e8afb-43d5-4edb-a5d6-9f31404f2c37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>623463ee-64d0-40af-af3a-6b955bd3b2f2</webElementGuid>
+      <webElementGuid>ad7c4f57-85e5-49d0-bbe1-1d23d03c1b37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>id</name>
       <type>Main</type>
       <value>list_price_0</value>
-      <webElementGuid>c8ac985d-6523-44c3-a1c6-c46bda8fc128</webElementGuid>
+      <webElementGuid>7e2966f5-d6fd-47cc-aec6-613e636a8f27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>799cf298-d94c-459b-9017-eb4eb99a94d0</webElementGuid>
+      <webElementGuid>374bff2e-e065-4872-84d2-8edeca5b3331</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;list_price_0&quot;)</value>
-      <webElementGuid>48561fdb-66c5-4223-b415-7e79361e023b</webElementGuid>
+      <webElementGuid>8f8e3519-9e43-45d1-8ab9-0365e09cdbad</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='list_price_0']</value>
-      <webElementGuid>13d851a5-0358-4a2c-a43e-e6c82266560c</webElementGuid>
+      <webElementGuid>3563f5d2-3d7c-40f5-9d0e-b8c91a90e397</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/div/div/div/input</value>
-      <webElementGuid>9bcb61d5-0145-4a08-b2f6-0d5a8e04e5c1</webElementGuid>
+      <webElementGuid>2256b866-ca26-4519-a2d0-16b0779dc9aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'list_price_0' and @type = 'text']</value>
-      <webElementGuid>07c56bb3-58d0-4ade-a02f-4f6ea04e82a6</webElementGuid>
+      <webElementGuid>78647d28-bb9b-4a2b-98e9-05b1727f0826</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

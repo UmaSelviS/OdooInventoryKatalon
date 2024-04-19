@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>18593ac4-b2f1-45bb-b7ac-8d45727b2ae4</webElementGuid>
+      <webElementGuid>aa398bc8-007c-441b-ab9e-d167145998de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>note-editable odoo-editor-editable odoo-editor-qweb</value>
-      <webElementGuid>eed0891f-6b53-4c25-a25e-77fea26f508d</webElementGuid>
+      <webElementGuid>ca0fa94e-217e-4327-80fb-a8d82d92641b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>description_0</value>
-      <webElementGuid>e06d80a8-9ad9-42ef-9c90-5ceaf8db2e6a</webElementGuid>
+      <webElementGuid>615ad2b1-6c7c-45d0-8745-cdc56e627b79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>contenteditable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>2d515bfc-7e11-404b-a2f8-fe696eabb0be</webElementGuid>
+      <webElementGuid>c1bf38a3-1011-45a2-9fb9-bce3135cc3d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>dir</name>
       <type>Main</type>
       <value>ltr</value>
-      <webElementGuid>45ea3f94-6940-43e9-a200-ed8adcb35df8</webElementGuid>
+      <webElementGuid>945be4d5-0b42-42bf-a093-305af4d1baed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>spellcheck</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>050eef52-e28d-4e8a-a997-47a35d7971dc</webElementGuid>
+      <webElementGuid>4747f146-78e5-4749-bbbc-111d359b1d0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;description_0&quot;)</value>
-      <webElementGuid>a1967f1c-5bcb-41ba-8211-0d3e082d9783</webElementGuid>
+      <webElementGuid>c0e3bcb1-0646-4f93-a2fc-50940a82b7c9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='description_0']</value>
-      <webElementGuid>cb46f721-5f3b-483e-9bbf-58012034db64</webElementGuid>
+      <webElementGuid>e1b5cbdf-bdb2-44a0-a812-72c3569489e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset Size'])[2]/following::div[1]</value>
-      <webElementGuid>e1dbf552-c8b1-4d17-abcf-9d760eaff2e9</webElementGuid>
+      <webElementGuid>778f00d3-febc-441c-b376-bc28755af3fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[2]/following::div[2]</value>
-      <webElementGuid>f5a8b4e5-c79d-4e7c-a9e1-a890e97d5342</webElementGuid>
+      <webElementGuid>aba77fcd-d9e0-464c-8bc4-6e40a01b77a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Send message'])[1]/preceding::div[1]</value>
-      <webElementGuid>d669c7f9-faa9-439e-b10d-f111a6f2e708</webElementGuid>
+      <webElementGuid>2b1ed65e-c68d-4fc1-9f7f-0f299855082f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log note'])[1]/preceding::div[1]</value>
-      <webElementGuid>285d84e5-0ec9-4fcd-9777-4a6f17089f71</webElementGuid>
+      <webElementGuid>16fe049d-dc71-41f5-a18c-25c97d98ba8e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div/div/div[5]</value>
-      <webElementGuid>e60cfd35-a0d4-4514-8098-814b3b4b302f</webElementGuid>
+      <webElementGuid>54e3653b-a18b-41d8-b9b5-d7075a0ba2fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'description_0']</value>
-      <webElementGuid>39471f41-4bde-49e0-be76-a56b31a3bd5f</webElementGuid>
+      <webElementGuid>e2f7b7e2-b0c1-4000-a39b-08fd068ec692</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

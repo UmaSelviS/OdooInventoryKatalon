@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>a47702be-047e-4bd9-905b-809fa3e48dbf</webElementGuid>
+      <webElementGuid>b55edca0-770e-4619-adcb-3398c3bcb57f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>fa fa-cloud-upload fa-fw</value>
-      <webElementGuid>40f8caa5-a201-4385-bcd7-7dba59f7e970</webElementGuid>
+      <webElementGuid>58de2e69-c312-49a5-82c7-9d5c0fd5a501</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;o_web_client&quot;]/div[@class=&quot;o_action_manager&quot;]/div[@class=&quot;o_form_view o_view_controller o_action&quot;]/div[@class=&quot;o_form_view_container&quot;]/div[@class=&quot;o_control_panel d-flex flex-column gap-3 gap-lg-1 px-3 pt-2 pb-3&quot;]/div[@class=&quot;o_control_panel_main d-flex flex-wrap flex-lg-nowrap justify-content-between align-items-lg-start gap-3 flex-grow-1&quot;]/div[@class=&quot;o_control_panel_breadcrumbs d-flex align-items-center gap-1 order-0 h-lg-100&quot;]/div[@class=&quot;o_form_status_indicator d-md-flex align-items-center align-self-md-end me-auto o_form_status_indicator_new_record&quot;]/div[@class=&quot;o_form_status_indicator_buttons d-flex&quot;]/button[@class=&quot;o_form_button_save btn btn-light px-1 py-0 lh-sm&quot;]/i[@class=&quot;fa fa-cloud-upload fa-fw&quot;]</value>
-      <webElementGuid>a4864711-482f-40d7-8b33-4b2a663f6454</webElementGuid>
+      <webElementGuid>5c9a637a-6530-49e1-adcb-aa6ba5da198a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,6 +53,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/button/i</value>
-      <webElementGuid>9aaa4802-8050-42b0-b769-81e2dce146fb</webElementGuid>
+      <webElementGuid>36f0d9e3-e347-4c05-b0c1-520e5b883c48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/button/i</value>
+      <webElementGuid>aeb2bf74-e805-4387-8e3e-79b6ba7bbe06</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>69bc29c4-d40b-44f6-a595-957d9aec55c3</webElementGuid>
+      <webElementGuid>78d9434d-7412-4899-b254-d603bd5bc095</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Type &quot;/&quot; for commands</value>
-      <webElementGuid>fd4406d5-dc12-4d4f-b780-bfbf629a331f</webElementGuid>
+      <webElementGuid>0833fbb0-ca01-42a7-b1c2-3ac938e00a56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oe-hint oe-command-temporary-hint</value>
-      <webElementGuid>2fb13847-d794-43b9-ac60-298739213c40</webElementGuid>
+      <webElementGuid>58864461-ceb8-45e2-adf5-08784537b1fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;description_0&quot;)/p[@class=&quot;oe-hint oe-command-temporary-hint&quot;]</value>
-      <webElementGuid>c63bd10a-32c9-434f-80ed-e4e9cfea6815</webElementGuid>
+      <webElementGuid>ec16662b-106c-4903-84ef-cdcccf7b32c3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='description_0']/p</value>
-      <webElementGuid>83775d82-3618-4194-aefb-af0738941d5c</webElementGuid>
+      <webElementGuid>24ea6f70-3e74-40bb-a321-3a71e46e75b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset Size'])[2]/following::p[1]</value>
-      <webElementGuid>35064165-3354-4312-9fb1-0771f4c8bd94</webElementGuid>
+      <webElementGuid>7f567f43-e69e-4c79-bedd-daa93b70f67b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[2]/following::p[1]</value>
-      <webElementGuid>e871273e-af0b-4dc4-b03d-b3e27f9a83db</webElementGuid>
+      <webElementGuid>8e8410d9-f662-45df-9e5d-0db59a03037b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Send message'])[1]/preceding::p[1]</value>
-      <webElementGuid>9c036115-ac3f-42ba-a6bc-e001eecb7325</webElementGuid>
+      <webElementGuid>f11e2569-fb64-4764-a5dd-372420c753c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log note'])[1]/preceding::p[1]</value>
-      <webElementGuid>81c74957-022b-476d-ae3a-89a41de3a6db</webElementGuid>
+      <webElementGuid>da98bb94-f93e-4c64-afb2-04a9c205c753</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p</value>
-      <webElementGuid>09c2d911-ef30-4fb1-9745-4abbcdabb1c5</webElementGuid>
+      <webElementGuid>20766773-52cf-41af-8ef6-46a105fe9787</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[@placeholder = 'Type &quot;/&quot; for commands']</value>
-      <webElementGuid>f6cc4bea-0737-43c2-9bff-7662acc2bcb8</webElementGuid>
+      <webElementGuid>6f2c2e94-bc91-446a-abf9-ddb6b08320d9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
