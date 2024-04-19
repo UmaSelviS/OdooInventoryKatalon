@@ -29,25 +29,34 @@ WebUI.click(findTestObject('Object Repository/Page_Odoo/button_Log in'))
 
 WebUI.click(findTestObject('Object Repository/Page_Products/button_New'))
 
-WebUI.setText(findTestObject('Object Repository/Page_New/textarea_Product Name_name_0'), 'glass')
+WebUI.setText(findTestObject('Object Repository/Page_New/textarea_Product Name_name_0'), 'burger')
 
-WebUI.setText(findTestObject('Object Repository/Page_New/input__list_price_0'), '25')
+WebUI.setText(findTestObject('Object Repository/Page_New/input__list_price_0'), '50')
 
-WebUI.setText(findTestObject('Object Repository/Page_New/input__standard_price_0'), '15')
+WebUI.setText(findTestObject('Object Repository/Page_New/input__standard_price_0'), '20')
 
-WebUI.click(findTestObject('Object Repository/Page_New/button_Print Labels_o_select_file_button bt_4fc975'))
+WebUI.click(findTestObject('Object Repository/Page_New/p_Reset Size_oe-hint oe-command-temporary-hint'))
 
-WebUI.click(findTestObject('Object Repository/Page_New/div_Internal Notes'))
+WebUI.uploadFile(findTestObject('Object Repository/Page_New/div_Reset Size_description_0'), '<p style="outline: rgb(255, 0, 0) solid 2px;">testing reference</p>')
 
-WebUI.click(findTestObject('Object Repository/Page_New/div_Internal Notes'))
+String s1 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
 
-WebUI.doubleClick(findTestObject('Object Repository/Page_New/p_Reset Size_oe-hint oe-command-temporary-hint'))
+Random rand = new Random()
 
-WebUI.setText(findTestObject('Object Repository/Page_New/div_Reset Size_description_0'), '<p style="outline: rgb(255, 0, 0) solid 2px;">This is for testing</p>')
+StringBuilder sb = new StringBuilder()
+
+for (int j = 1; j <= 10; j++) {
+    sb.append(s1.charAt(rand.nextInt(s1.length())))
+}
+
+//WebUI.comment(sb.toString())
+WebUI.setText(findTestObject('Object Repository/Page_New/input_Barcode_barcode_0'), sb.toString())
 
 WebUI.click(findTestObject('Object Repository/Page_New/i_New_fa fa-cloud-upload fa-fw'))
 
-WebUI.click(findTestObject('Object Repository/Page_glass/span_Products'))
+WebUI.click(findTestObject('Object Repository/Page_burger/span_Products'))
 
-WebUI.click(findTestObject('Object Repository/Page_glass/a_Products'))
+WebUI.click(findTestObject('Object Repository/Page_burger/a_Products'))
+
+WebUI.closeBrowser()
 

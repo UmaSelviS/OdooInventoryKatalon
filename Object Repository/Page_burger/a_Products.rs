@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Products</name>
    <tag></tag>
-   <elementGuidId>b3b5ce6c-c90a-43e8-ba94-a9dcc2969761</elementGuidId>
+   <elementGuidId>74bcde93-c982-4edc-9bca-5dcabcd7716c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>e8469826-0091-4964-bac0-cf37db8896b5</webElementGuid>
+      <webElementGuid>038884b9-2420-4757-8720-f8c87b486994</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>o-dropdown-item dropdown-item o-navigable focus</value>
-      <webElementGuid>2d39723f-6140-4f80-9eb4-dee77979d0c4</webElementGuid>
+      <webElementGuid>0e455011-0148-4f77-b05b-1b3da128adae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>08e5e641-e66e-4fd0-90b6-60490171ef72</webElementGuid>
+      <webElementGuid>349b6e17-4286-4612-9640-0659cf54e8c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>1367daa0-e9b3-46c0-98a9-877bf2f83801</webElementGuid>
+      <webElementGuid>cbfda254-43b0-489e-ab77-e782ce5fc157</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/odoo/action-268</value>
-      <webElementGuid>0a50a326-7fb8-4b0f-aa16-689e7e670eb9</webElementGuid>
+      <webElementGuid>0c4113fd-28fb-4445-aa3b-c4f39b65c365</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>data-menu-xmlid</name>
       <type>Main</type>
       <value>stock.menu_product_variant_config_stock</value>
-      <webElementGuid>92a80976-f7c4-4ef6-8387-22c956713d3d</webElementGuid>
+      <webElementGuid>22c5e67b-a459-43c4-b097-1ea88fe552f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>data-section</name>
       <type>Main</type>
       <value>152</value>
-      <webElementGuid>d929287c-287a-425e-95b5-ca5ed9ceb2ce</webElementGuid>
+      <webElementGuid>e0b88ccf-ff21-4ba4-8618-c9ea6611f9db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Products</value>
-      <webElementGuid>93fea57b-1c4a-4570-98e0-02dee0f5a75d</webElementGuid>
+      <webElementGuid>f944d7ec-6fdc-462e-bc00-0fab9195ee18</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;o_web_client&quot;]/div[@class=&quot;o-main-components-container&quot;]/div[@class=&quot;o-overlay-container&quot;]/div[@class=&quot;o_popover popover mw-100 o-dropdown--menu dropdown-menu mx-0&quot;]/a[@class=&quot;o-dropdown-item dropdown-item o-navigable focus&quot;]</value>
-      <webElementGuid>a854ec72-7bba-4b0c-99ed-4d5fb1d1fd7e</webElementGuid>
+      <webElementGuid>16746e78-fda5-42a7-a724-d26b3e920eb2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Products')])[2]</value>
-      <webElementGuid>94e37ed3-56fc-4cee-acb2-d966a407eccd</webElementGuid>
+      <webElementGuid>4fd43da8-72fb-47fc-9c87-1987ffc77a27</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='- now'])[1]/following::a[1]</value>
-      <webElementGuid>445adf3f-f2e1-41d2-8d43-a81dfcbb0265</webElementGuid>
+      <webElementGuid>02c34803-6b28-4ff1-8356-dc2e46206755</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='khayati0308'])[1]/following::a[1]</value>
-      <webElementGuid>e6b55e1c-ddff-4914-9744-9c86ea5f7fbc</webElementGuid>
+      <webElementGuid>e77dee6d-fc15-48d9-bb90-25fbc276a80b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Flexible'])[1]/preceding::a[1]</value>
-      <webElementGuid>91c945db-8221-4152-a89b-f22d1fcd8c53</webElementGuid>
+      <webElementGuid>2dd5176a-0a8d-4f6d-8811-e7de463b0c22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset Image'])[1]/preceding::a[1]</value>
-      <webElementGuid>1f27465a-cee6-408a-9ee4-301c54bfc7a5</webElementGuid>
+      <webElementGuid>234ddf27-01d2-4dfa-b1ac-ba9ba6474d63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/odoo/action-268')])[2]</value>
-      <webElementGuid>f7708caf-9d5f-40cc-932c-aad980e9b543</webElementGuid>
+      <webElementGuid>57725ef8-5939-4ebb-a7fe-dabb59469f4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/a</value>
-      <webElementGuid>005a5ad7-cc31-4983-9329-dfa6972d2e9b</webElementGuid>
+      <webElementGuid>0d0f0a20-e4cb-4cf8-9926-4b615246c8d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,6 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/odoo/action-268' and (text() = 'Products' or . = 'Products')]</value>
-      <webElementGuid>af968f6b-499c-4700-93bf-96bcb1ca82aa</webElementGuid>
+      <webElementGuid>9b2887b2-de12-4cc6-88aa-a3899859b650</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
