@@ -12,7 +12,7 @@
       <variableId>9ee45fbb-a53f-471e-91e5-3f5aa876d832</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
       <id>9ee45fbb-a53f-471e-91e5-3f5aa876d832</id>
       <masked>false</masked>
