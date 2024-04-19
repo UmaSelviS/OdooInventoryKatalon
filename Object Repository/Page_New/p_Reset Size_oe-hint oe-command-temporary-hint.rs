@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Reset Size_oe-hint oe-command-temporary-hint</name>
+   <tag></tag>
+   <elementGuidId>6d3ca9eb-9b10-40e1-ba9d-9566d9ece898</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='description_0']/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.oe-hint.oe-command-temporary-hint</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=paragraph</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>78d9434d-7412-4899-b254-d603bd5bc095</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Type &quot;/&quot; for commands</value>
+      <webElementGuid>0833fbb0-ca01-42a7-b1c2-3ac938e00a56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oe-hint oe-command-temporary-hint</value>
+      <webElementGuid>58864461-ceb8-45e2-adf5-08784537b1fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;description_0&quot;)/p[@class=&quot;oe-hint oe-command-temporary-hint&quot;]</value>
+      <webElementGuid>ec16662b-106c-4903-84ef-cdcccf7b32c3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='description_0']/p</value>
+      <webElementGuid>24ea6f70-3e74-40bb-a321-3a71e46e75b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset Size'])[2]/following::p[1]</value>
+      <webElementGuid>7f567f43-e69e-4c79-bedd-daa93b70f67b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[2]/following::p[1]</value>
+      <webElementGuid>8e8410d9-f662-45df-9e5d-0db59a03037b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send message'])[1]/preceding::p[1]</value>
+      <webElementGuid>f11e2569-fb64-4764-a5dd-372420c753c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log note'])[1]/preceding::p[1]</value>
+      <webElementGuid>da98bb94-f93e-4c64-afb2-04a9c205c753</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>20766773-52cf-41af-8ef6-46a105fe9787</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@placeholder = 'Type &quot;/&quot; for commands']</value>
+      <webElementGuid>6f2c2e94-bc91-446a-abf9-ddb6b08320d9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

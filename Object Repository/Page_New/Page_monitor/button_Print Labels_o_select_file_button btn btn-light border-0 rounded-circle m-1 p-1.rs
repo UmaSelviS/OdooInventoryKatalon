@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Print Labels_o_select_file_button btn btn-light border-0 rounded-circle m-1 p-1</name>
+   <tag></tag>
+   <elementGuidId>cb5c61a9-2428-48f9-a77a-db056795e123</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Print Labels'])[1]/following::button[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.o_select_file_button.btn.btn-light.border-0.rounded-circle.m-1.p-1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Edit&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c197837e-53cc-4bc8-9588-cb0c1c05109d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o_select_file_button btn btn-light border-0 rounded-circle m-1 p-1</value>
+      <webElementGuid>3d56aba2-69e5-4717-af61-193ff87b9f97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tooltip</name>
+      <type>Main</type>
+      <value>Edit</value>
+      <webElementGuid>6a68b347-0961-484f-b246-dbd4261857bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Edit</value>
+      <webElementGuid>f0596073-d1ee-4def-a98d-00180a8b4918</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;o_web_client&quot;]/div[@class=&quot;o_action_manager&quot;]/div[@class=&quot;o_form_view o_view_controller o_action&quot;]/div[@class=&quot;o_form_view_container&quot;]/div[@class=&quot;o_content&quot;]/div[@class=&quot;o_form_renderer o_form_editable d-flex flex-column o_form_saved&quot;]/div[@class=&quot;o_form_sheet_bg&quot;]/div[@class=&quot;o_form_sheet position-relative&quot;]/div[@class=&quot;o_field_widget o_field_image oe_avatar&quot;]/div[@class=&quot;d-inline-block position-relative opacity-trigger-hover&quot;]/div[@class=&quot;position-absolute d-flex justify-content-between w-100 bottom-0 opacity-0 opacity-100-hover&quot;]/span[1]/button[@class=&quot;o_select_file_button btn btn-light border-0 rounded-circle m-1 p-1&quot;]</value>
+      <webElementGuid>eb2f60a1-b04e-4a6f-975c-0057ef9b62a3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Print Labels'])[1]/following::button[1]</value>
+      <webElementGuid>9a34ca88-5350-47c0-b99d-df6c60f6c55e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Replenish'])[1]/following::button[2]</value>
+      <webElementGuid>8b8d0ac5-b1c1-4a73-856b-84cbe60f936c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Name'])[1]/preceding::button[2]</value>
+      <webElementGuid>da723496-d304-48ee-9a1e-a51cb8b2f58f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Can be Sold'])[1]/preceding::button[2]</value>
+      <webElementGuid>e1c572e4-c903-45ee-b7af-0007b9e4d528</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span/button</value>
+      <webElementGuid>5e957655-c3b7-4e86-aeec-a14268d0d2a4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

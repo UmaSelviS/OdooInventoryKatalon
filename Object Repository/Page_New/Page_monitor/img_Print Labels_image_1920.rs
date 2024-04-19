@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Print Labels_image_1920</name>
+   <tag></tag>
+   <elementGuidId>2ddb1efa-dc24-4ee3-90d4-d2bdda74f8b6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@name='image_1920']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img[name=&quot;image_1920&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=img[name=&quot;Binary file&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>edc6c22b-4c4d-4a1a-bb8a-d08cc9295a69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>loading</name>
+      <type>Main</type>
+      <value>lazy</value>
+      <webElementGuid>1bd829e9-34b5-4824-aa37-2629914253a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>img img-fluid</value>
+      <webElementGuid>9219e832-aa9f-42aa-9fcd-450e82f4ca04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Binary file</value>
+      <webElementGuid>474f5a70-052b-44d9-953e-ee11ba14a04f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://freelance25.odoo.com/web/image/product.template/64/image_128?unique=1713533002000</value>
+      <webElementGuid>9df90527-88f1-4105-8d56-989debc1fbbb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>image_1920</value>
+      <webElementGuid>7a48bf7a-a8fb-46e0-b33f-99edc6cdd8c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;o_web_client&quot;]/div[@class=&quot;o_action_manager&quot;]/div[@class=&quot;o_form_view o_view_controller o_action&quot;]/div[@class=&quot;o_form_view_container&quot;]/div[@class=&quot;o_content&quot;]/div[@class=&quot;o_form_renderer o_form_editable d-flex flex-column o_form_saved&quot;]/div[@class=&quot;o_form_sheet_bg&quot;]/div[@class=&quot;o_form_sheet position-relative&quot;]/div[@class=&quot;o_field_widget o_field_image oe_avatar&quot;]/div[@class=&quot;d-inline-block position-relative opacity-trigger-hover&quot;]/img[@class=&quot;img img-fluid&quot;]</value>
+      <webElementGuid>b9750dcf-6abd-48f4-859f-618147260f6f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//img[@name='image_1920']</value>
+      <webElementGuid>26e29052-149a-49f8-8ea2-170c65786ed9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Binary file']</value>
+      <webElementGuid>10a6771d-da6e-40ce-9c9b-144d80015b4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/img</value>
+      <webElementGuid>376cdd8e-dce3-4994-bb34-6a0d8f018c91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@alt = 'Binary file' and @src = 'https://freelance25.odoo.com/web/image/product.template/64/image_128?unique=1713533002000' and @name = 'image_1920']</value>
+      <webElementGuid>cf715b58-de0c-4eed-87d7-34a1400cdbde</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
