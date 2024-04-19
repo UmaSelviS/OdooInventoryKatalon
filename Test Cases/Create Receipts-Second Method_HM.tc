@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Receipts-Second Method_HM</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf4f516a-aeb0-4068-bde0-f8fbd7fb3d52</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>b7d4dc5a-c33c-49e8-9ec7-f50ee5f2a27b</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Login Credentials</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>b7d4dc5a-c33c-49e8-9ec7-f50ee5f2a27b</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Email</value>
+      <variableId>34b2cfcd-2b2a-46d7-be27-ae7270813bd9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>b7d4dc5a-c33c-49e8-9ec7-f50ee5f2a27b</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>bbe25763-6bf2-4edc-ae19-1390d9c65c51</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>34b2cfcd-2b2a-46d7-be27-ae7270813bd9</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bbe25763-6bf2-4edc-ae19-1390d9c65c51</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>
