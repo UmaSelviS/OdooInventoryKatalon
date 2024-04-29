@@ -22,11 +22,11 @@ WebUI.callTestCase(findTestCase('Login to Odoo Inventory ERP System'), [('Email'
 
 WebUI.click(findTestObject('Object Repository/homeMenuPage/inventoryLink'))
 
-WebUI.click(findTestObject('inventoryPage/configurationMenu'))
+WebUI.click(findTestObject('Object Repository/inventoryPage/configurationMenu'))
 
-WebUI.click(findTestObject('inventoryPage/warehousesSubMenu'))
+WebUI.click(findTestObject('Object Repository/inventoryPage/warehousesSubMenu'))
 
-WebUI.click(findTestObject('warehousesPage/newButton'))
+WebUI.click(findTestObject('Object Repository/warehousesPage/newButton'))
 
 String s1 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
 
@@ -38,7 +38,7 @@ for (int j = 1; j <= 10; j++) {
     sb.append(s1.charAt(rand.nextInt(s1.length())))
 }
 
-WebUI.setText(findTestObject('warehouseConfigurationPage/warehouseNameText'), sb.toString())
+WebUI.setText(findTestObject('Object Repository/warehouseConfigurationPage/warehouseNameText'), sb.toString())
 
 WebUI.setText(findTestObject('Object Repository/warehouseConfigurationPage/shortNameText'), sb.toString())
 
@@ -50,7 +50,7 @@ WebUI.click(findTestObject('Object Repository/warehouseConfigurationPage/saveMan
 
 WebUI.click(findTestObject('Object Repository/warehouseConfigurationPage/warehousesLink'))
 
-WebUI.verifyElementPresent(findTestObject('warehousesPage/warehouseName'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/warehousesPage/warehouseName'), 0)
 
 WebUI.closeBrowser()
 
