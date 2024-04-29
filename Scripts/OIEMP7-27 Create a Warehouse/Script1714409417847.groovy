@@ -22,6 +22,8 @@ WebUI.callTestCase(findTestCase('Login to Odoo Inventory ERP System'), [('Email'
 
 WebUI.click(findTestObject('Object Repository/homeMenuPage/inventoryLink'))
 
+WebUI.waitForElementPresent(findTestObject('Object Repository/inventoryPage/configurationMenu'), 2)
+
 WebUI.click(findTestObject('Object Repository/inventoryPage/configurationMenu'))
 
 WebUI.click(findTestObject('Object Repository/inventoryPage/warehousesSubMenu'))

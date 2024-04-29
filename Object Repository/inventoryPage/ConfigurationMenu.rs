@@ -6,12 +6,15 @@
    <elementGuidId>0e834a4b-ea3b-425b-997e-16b6ca62e476</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Configuration' or . = 'Configuration')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'Configuration')]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Reporting'])[1]/following::span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>63da0b48-735d-4c5a-a53d-6adea7fef678</webElementGuid>
+      <webElementGuid>d58bc41c-9b83-4723-a902-ef9b718d0f3f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +40,7 @@
       <name>data-section</name>
       <type>Main</type>
       <value>125</value>
-      <webElementGuid>b7f8bedc-954a-469b-9344-fd0437b46bff</webElementGuid>
+      <webElementGuid>06fabed0-9741-43cf-accb-ccb951c12c8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +48,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Configuration</value>
-      <webElementGuid>b1e56533-5082-438c-a739-401e29ef4e2b</webElementGuid>
+      <webElementGuid>8cdf6615-b833-41a9-9b6f-5160d3b4abbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;o_web_client&quot;]/header[@class=&quot;o_navbar&quot;]/nav[@class=&quot;o_main_navbar&quot;]/div[@class=&quot;o_menu_sections d-none d-md-flex flex-grow-1 flex-shrink-1 w-0&quot;]/button[@class=&quot;fw-normal o-dropdown dropdown-toggle dropdown&quot;]/span[1]</value>
-      <webElementGuid>b23f9c4e-3e47-4346-afda-369da7fd8d09</webElementGuid>
+      <webElementGuid>07906839-7933-4d21-b910-aa8d9f22e0a6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +64,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reporting'])[1]/following::span[1]</value>
-      <webElementGuid>75560856-6f17-4122-8ba5-c45dae6e7e60</webElementGuid>
+      <webElementGuid>3e79ab79-013e-4c7a-a4fa-c61510aaf16a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +72,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Products'])[1]/following::span[2]</value>
-      <webElementGuid>f9c76ad1-2a7f-4135-8ef9-15bb5d0ffeae</webElementGuid>
+      <webElementGuid>01991fc2-ea2e-4389-878d-f8c671dbf8e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='freelance25'])[1]/preceding::span[3]</value>
-      <webElementGuid>687ce687-846f-4f90-930b-8638e8142130</webElementGuid>
+      <webElementGuid>04889c19-2550-428a-9831-ede1f9e9885c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Configuration']/parent::*</value>
-      <webElementGuid>b8166927-2b86-4c16-9ed8-029293b3d730</webElementGuid>
+      <webElementGuid>eb70dbbc-f060-463b-832c-dd41f57ee91c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +96,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[4]/span</value>
-      <webElementGuid>3d8d029f-a0cc-4b41-8da2-2788e01ae73d</webElementGuid>
+      <webElementGuid>5bda731f-2fe3-491f-a40e-86c8e01915ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +104,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Configuration' or . = 'Configuration')]</value>
-      <webElementGuid>5162c7e9-e8ec-4b6b-862a-f788453e6e56</webElementGuid>
+      <webElementGuid>c9461e13-85bb-4696-a616-411e383784de</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
