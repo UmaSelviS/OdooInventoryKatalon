@@ -27,5 +27,3 @@ WebUI.setText(findTestObject('Object Repository/Odoo_loginPage/txt_Password'), P
 
 WebUI.click(findTestObject('Object Repository/Odoo_loginPage/btn_Login'))
 
-WebUI.acceptAlert()
-
