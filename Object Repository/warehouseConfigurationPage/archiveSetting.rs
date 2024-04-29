@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>archiveSetting</name>
+   <tag></tag>
+   <elementGuidId>8fb3b81d-4c1b-4128-a751-dcb536a5ef1b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[@class=&quot;o_web_client&quot;]/div[@class=&quot;o-main-components-container&quot;]/div[@class=&quot;o-overlay-container&quot;]/div[@class=&quot;o_popover popover mw-100 o-dropdown--menu dropdown-menu mx-0 lh-base&quot;]/span[@class=&quot;o-dropdown-item dropdown-item o-navigable o_menu_item focus&quot;]/i[@class=&quot;fa-fw oi-fw me-1 oi oi-archive&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.o-dropdown-item.dropdown-item.o-navigable.o_menu_item.focus</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=menuitem[name=&quot; Archive&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b4f99fdc-6c93-4eaa-b7dd-ae5ca6bd6e0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-dropdown-item dropdown-item o-navigable o_menu_item focus</value>
+      <webElementGuid>882a9c18-6431-4513-8c0f-0df7ced840ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>8e858bb7-3a19-45ef-8acf-f9e767bbe0ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>e4f9ae20-2968-4b68-aad7-a80afdaf9f16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Archive</value>
+      <webElementGuid>afef766c-d6de-4247-b8c7-9ab713efc378</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;o_web_client&quot;]/div[@class=&quot;o-main-components-container&quot;]/div[@class=&quot;o-overlay-container&quot;]/div[@class=&quot;o_popover popover mw-100 o-dropdown--menu dropdown-menu mx-0 lh-base&quot;]/span[@class=&quot;o-dropdown-item dropdown-item o-navigable o_menu_item focus&quot;]/i[@class=&quot;fa-fw oi-fw me-1 oi oi-archive&quot;]</value>
+      <webElementGuid>4a8ed952-7c3d-430a-935c-f325fe07bd43</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quebec Warehouse'])[1]/following::span[1]</value>
+      <webElementGuid>c9c4fa76-9f8d-4b29-bd90-b8852645d40a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Toronto Warehouse'])[1]/following::span[1]</value>
+      <webElementGuid>a3087d4a-9915-41fd-8b4b-1ebba873c549</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Duplicate'])[1]/preceding::span[1]</value>
+      <webElementGuid>9a72d7d1-b45b-4ca8-958c-46a037ebfde0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::span[2]</value>
+      <webElementGuid>1a8f720e-b0b3-499b-a2a6-aebc6076debf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Archive']/parent::*</value>
+      <webElementGuid>08e5990b-6a74-429e-8504-a3d260de6081</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/span</value>
+      <webElementGuid>e9bb5efc-eefc-4358-af1a-d6cce192daef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Archive' or . = 'Archive')]</value>
+      <webElementGuid>91f5cea3-26ea-466e-aff5-6a4b9805c63f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
