@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>actionsMenu</name>
+   <tag></tag>
+   <elementGuidId>639d4ba2-b25b-4249-95af-40682c17ebf4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[@class=&quot;o_web_client&quot;]/div[@class=&quot;o_action_manager&quot;]/div[@class=&quot;o_form_view o_view_controller o_action&quot;]/div[@class=&quot;o_form_view_container&quot;]/div[@class=&quot;o_control_panel d-flex flex-column gap-3 gap-lg-1 px-3 pt-2 pb-3&quot;]/div[@class=&quot;o_control_panel_main d-flex flex-wrap flex-lg-nowrap justify-content-between align-items-lg-start gap-3 flex-grow-1&quot;]/div[@class=&quot;o_control_panel_breadcrumbs d-flex align-items-center gap-1 order-0 h-lg-100&quot;]/div[@class=&quot;o_breadcrumb d-flex flex-row flex-md-column align-self-stretch justify-content-between min-w-0&quot;]/div[@class=&quot;d-flex gap-1 text-truncate&quot;]/div[@class=&quot;o_control_panel_breadcrumbs_actions d-inline-flex&quot;]/div[@class=&quot;o_cp_action_menus d-flex align-items-center pe-2 gap-1&quot;]/div[@class=&quot;lh-1&quot;]/button[@class=&quot;d-print-none btn p-0 ms-1 lh-sm border-0 o-dropdown dropdown-toggle dropdown&quot;]/i[@class=&quot;fa fa-cog&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-cog</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class[contains(.,'action_menus')]]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>9b61f032-e366-4dc4-8ca0-cef59fa3187c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-cog</value>
+      <webElementGuid>b2e0005e-94f1-41b4-8c6f-7d6ff824df9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;o_web_client&quot;]/div[@class=&quot;o_action_manager&quot;]/div[@class=&quot;o_form_view o_view_controller o_action&quot;]/div[@class=&quot;o_form_view_container&quot;]/div[@class=&quot;o_control_panel d-flex flex-column gap-3 gap-lg-1 px-3 pt-2 pb-3&quot;]/div[@class=&quot;o_control_panel_main d-flex flex-wrap flex-lg-nowrap justify-content-between align-items-lg-start gap-3 flex-grow-1&quot;]/div[@class=&quot;o_control_panel_breadcrumbs d-flex align-items-center gap-1 order-0 h-lg-100&quot;]/div[@class=&quot;o_breadcrumb d-flex flex-row flex-md-column align-self-stretch justify-content-between min-w-0&quot;]/div[@class=&quot;d-flex gap-1 text-truncate&quot;]/div[@class=&quot;o_control_panel_breadcrumbs_actions d-inline-flex&quot;]/div[@class=&quot;o_cp_action_menus d-flex align-items-center pe-2 gap-1&quot;]/div[@class=&quot;lh-1&quot;]/button[@class=&quot;d-print-none btn p-0 ms-1 lh-sm border-0 o-dropdown dropdown-toggle dropdown&quot;]/i[@class=&quot;fa fa-cog&quot;]</value>
+      <webElementGuid>bf900e79-22d7-4d58-90ad-89cda721abd6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/button/i</value>
+      <webElementGuid>5da0c5d9-c8b7-4b5f-8dd2-8bccefa4ccef</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
