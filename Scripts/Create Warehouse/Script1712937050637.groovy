@@ -17,3 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.acceptAlert()
+
+WebUI.acceptAlert()
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://freelance25.odoo.com/web/login?redirect=%2Fodoo%2Fstock-report%2F11%3Fcids%3D1')
+
+WebUI.setText(findTestObject('Object Repository/Page_Odoo/input_Email_login-nivetha'), 'nivethasivakumar1998@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Odoo/input_Password_password'), 'XUXZO0J2IMUaiSjEDiaJnA==')
+
+WebUI.sendKeys(findTestObject('Object Repository/Page_Odoo/input_Password_password'), Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Object Repository/Page_Computer Accessories Wireless Headphones/i_Print Labels_fa fa-trash-o fa-fw'))
+
+WebUI.click(findTestObject('Object Repository/Page_Computer Accessories Wireless Headphones/i_Print Labels_fa fa-pencil fa-fw'))
+

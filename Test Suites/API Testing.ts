@@ -11,11 +11,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>3fb08d45-b5a9-4071-b8d3-cd332aafe97b</testSuiteGuid>
-   <testCaseLink>
-      <guid>e50a2eb8-2f4b-4afb-8197-74c7523c1494</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/restful-booker API Testing</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
 </TestSuiteEntity>
