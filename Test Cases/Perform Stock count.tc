@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Perform Stock count</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3139d20-7f1e-4977-bafc-490cda815c69</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>a1147a19-dcc7-4364-b278-88ff373fcade</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Login Credentials</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>a1147a19-dcc7-4364-b278-88ff373fcade</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Email</value>
+      <variableId>c35dfd2b-d2e9-43d4-8683-7bd3003ee9b9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>a1147a19-dcc7-4364-b278-88ff373fcade</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>2ed3b031-b54f-46f0-a5dc-8db31cf1611e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c35dfd2b-d2e9-43d4-8683-7bd3003ee9b9</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2ed3b031-b54f-46f0-a5dc-8db31cf1611e</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

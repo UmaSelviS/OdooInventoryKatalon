@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Print Labels_fa fa-trash-o fa-fw</name>
+   <tag></tag>
+   <elementGuidId>4faecfaa-756a-4483-a48f-d5bc6221fe9d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-trash-o.fa-fw</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/div/div/button/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Clear&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>8793c680-d24f-4e25-a7c3-86916a761163</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-trash-o fa-fw</value>
+      <webElementGuid>b5bb7db9-ab53-47eb-9a09-63bb7db056ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;o_web_client&quot;]/div[@class=&quot;o_action_manager&quot;]/div[@class=&quot;o_form_view o_view_controller o_action&quot;]/div[@class=&quot;o_form_view_container&quot;]/div[@class=&quot;o_content&quot;]/div[@class=&quot;o_form_renderer o_form_editable d-flex flex-column o_form_saved&quot;]/div[@class=&quot;o_form_sheet_bg&quot;]/div[@class=&quot;o_form_sheet position-relative&quot;]/div[@class=&quot;o_field_widget o_field_image oe_avatar&quot;]/div[@class=&quot;d-inline-block position-relative opacity-trigger-hover&quot;]/div[@class=&quot;position-absolute d-flex justify-content-between w-100 bottom-0 opacity-0 opacity-100-hover&quot;]/button[@class=&quot;o_clear_file_button btn btn-light border-0 rounded-circle m-1 p-1&quot;]/i[@class=&quot;fa fa-trash-o fa-fw&quot;]</value>
+      <webElementGuid>f29437f2-fe04-4b9c-95e2-55c2a9d8ef2d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/button/i</value>
+      <webElementGuid>d7578336-719c-46aa-b6a8-70d3612e7910</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

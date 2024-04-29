@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ReportingLink</name>
+   <tag></tag>
+   <elementGuidId>ac53bbf8-c572-4d4c-a51f-64317b25891b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Reporting'])[1]/following::kbd[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.fw-normal.o-dropdown.dropdown-toggle.show.dropdown > div.o_web_hotkey_overlay.position-absolute.top-0.bottom-0.start-0.end-0.d-flex.justify-content-center.align-items-center.m-0.bg-black-50.h6 > kbd.small</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Reporting 4&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>kbd</value>
+      <webElementGuid>70ac3aaf-f61c-4149-937d-87c3c95e38f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>small</value>
+      <webElementGuid>5ae71e65-fa23-4182-95d2-18aee2f09961</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>4</value>
+      <webElementGuid>8cdfdbcb-1a79-4796-b715-de6650140dd0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;o_web_client&quot;]/header[@class=&quot;o_navbar&quot;]/nav[@class=&quot;o_main_navbar&quot;]/div[@class=&quot;o_menu_sections d-none d-md-flex flex-grow-1 flex-shrink-1 w-0&quot;]/button[@class=&quot;fw-normal o-dropdown dropdown-toggle show dropdown&quot;]/div[@class=&quot;o_web_hotkey_overlay position-absolute top-0 bottom-0 start-0 end-0 d-flex justify-content-center align-items-center m-0 bg-black-50 h6&quot;]/kbd[@class=&quot;small&quot;]</value>
+      <webElementGuid>2de4e87c-3382-45ad-839b-2016358d2db9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reporting'])[1]/following::kbd[1]</value>
+      <webElementGuid>f4609355-5ac8-4016-aa18-43ff30748073</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Products'])[1]/following::kbd[2]</value>
+      <webElementGuid>6022cf49-d8c9-435e-a57e-6fe4d5d9db33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Configuration'])[1]/preceding::kbd[1]</value>
+      <webElementGuid>3659e1ea-e9b8-4600-b0b8-b1ed3ffbdc03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='4']/parent::*</value>
+      <webElementGuid>cdb752c1-97be-40f1-b3f7-0b70a5e9214e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[3]/div/kbd</value>
+      <webElementGuid>cad4f251-6102-42d2-9d9c-16a0a090531c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//kbd[(text() = '4' or . = '4')]</value>
+      <webElementGuid>bfd29c17-d6cb-45ca-87cd-b27136e6d0fd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
