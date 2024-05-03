@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Scrap Inventory" time="166.289" tests="13" failures="2" errors="1">
+   <testsuite name="Scrap Inventory" tests="13" failures="2" errors="1" time="166.289" skipped="0" timestamp="02-05-2024T12:02:51" hostname="UmaSankaran - host.docker.internal" id="Test Suites/Scrap Inventory">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\UmaSankaran\\git\\OdooInventoryKatalon\\newcode\\OdooInventoryKatalon\\05-02\\Reports\\20240502_120243\\Scrap Inventory\\20240502_120243"/>
+         <property name="logFiles" value="C:\\Users\\UmaSankaran\\git\\OdooInventoryKatalon\\newcode\\OdooInventoryKatalon\\05-02\\Reports\\20240502_120243\\Scrap Inventory\\20240502_120243\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\UmaSankaran\\git\\OdooInventoryKatalon\\newcode\\OdooInventoryKatalon\\05-02\\Reports\\20240502_120243\\Scrap Inventory\\20240502_120243\\1714665849322.png, C:\\Users\\UmaSankaran\\git\\OdooInventoryKatalon\\newcode\\OdooInventoryKatalon\\05-02\\Reports\\20240502_120243\\Scrap Inventory\\20240502_120243\\1714665849828.png, C:\\Users\\UmaSankaran\\git\\OdooInventoryKatalon\\newcode\\OdooInventoryKatalon\\05-02\\Reports\\20240502_120243\\Scrap Inventory\\20240502_120243\\1714665934533.png"/>
+         <property name="hostName" value="UmaSankaran - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.2.212"/>
+         <property name="browser" value="Chrome 123.0.0.0"/>
+         <property name="hostAddress" value="10.0.0.145"/>
+         <property name="sessionId" value="ac5a0b3c93149831b8227bc70ba7472d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Create a New Warehouse" time="18.652" classname="Test Cases/Create a New Warehouse" status="PASSED">
+         <system-out><![CDATA[02-05-2024T12:02:51 - [TEST_CASE][PASSED] - Test Cases/Create a New Warehouse: Test Cases/Create a New Warehouse
+
+02-05-2024T12:02:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login to Odoo Inventory ERP System"), ["Email":"vinita.gaikwad07@gmail.com", "Password":"Test@123"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login to Odoo Inventory ERP System' successfully
+
+02-05-2024T12:02:52 - [TEST_CASE][PASSED] - Test Cases/Login to Odoo Inventory ERP System: Test Cases/Login to Odoo Inventory ERP System
+
+02-05-2024T12:02:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-05-2024T12:02:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-05-2024T12:02:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-05-2024T12:02:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-05-2024T12:02:56 - [TEST_STEP][PASSED] - navigateToUrl("https://freelance25.odoo.com/web/login?redirect=%2Fodoo%3F"): Navigate to 'https://freelance25.odoo.com/web/login?redirect=%2Fodoo%3F' successfully
+
+02-05-2024T12:02:57 - [MESSAGE][PASSED] - Navigate to 'https://freelance25.odoo.com/web/login?redirect=%2Fodoo%3F' successfully
+
+02-05-2024T12:02:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Odoo_loginPage/txt_Email"), Email): Text 'vinita.gaikwad07@gmail.com' is set on object 'Object Repository/Odoo_loginPage/txt_Email'
+
+02-05-2024T12:02:58 - [MESSAGE][PASSED] - Text 'vinita.gaikwad07@gmail.com' is set on object 'Object Repository/Odoo_loginPage/txt_Email'
+
+02-05-2024T12:02:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Odoo_loginPage/txt_Password"), Password): Text 'Test@123' is set on object 'Object Repository/Odoo_loginPage/txt_Password'
+
+02-05-2024T12:02:59 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Odoo_loginPage/txt_Password'
+
+02-05-2024T12:02:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Odoo_loginPage/btn_Login")): Object: 'Object Repository/Odoo_loginPage/btn_Login' is clicked on
+
+02-05-2024T12:03:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Odoo_loginPage/btn_Login' is clicked on
+
+02-05-2024T12:03:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login to Odoo Inventory ERP System' successfully
+
+02-05-2024T12:03:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/homeMenuPage/inventoryLink")): Object: 'Object Repository/homeMenuPage/inventoryLink' is clicked on
+
+02-05-2024T12:03:02 - [MESSAGE][PASSED] - Object: 'Object Repository/homeMenuPage/inventoryLink' is clicked on
+
+02-05-2024T12:03:02 - [TEST_STEP][PASSED] - click(findTestObject("inventoryPage/configurationMenu")): Object: 'Object Repository/inventoryPage/configurationMenu' is clicked on
+
+02-05-2024T12:03:03 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/configurationMenu' is clicked on
+
+02-05-2024T12:03:03 - [TEST_STEP][PASSED] - click(findTestObject("inventoryPage/warehousesSubMenu")): Object: 'Object Repository/inventoryPage/warehousesSubMenu' is clicked on
+
+02-05-2024T12:03:03 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/warehousesSubMenu' is clicked on
+
+02-05-2024T12:03:03 - [TEST_STEP][PASSED] - click(findTestObject("warehousesPage/newButton")): Object: 'Object Repository/warehousesPage/newButton' is clicked on
+
+02-05-2024T12:03:04 - [MESSAGE][PASSED] - Object: 'Object Repository/warehousesPage/newButton' is clicked on
+
+02-05-2024T12:03:04 - [TEST_STEP][PASSED] - setText(findTestObject("warehouseConfigurationPage/warehouseNameText"), WarehouseName): Text '' is set on object 'Object Repository/warehouseConfigurationPage/warehouseNameText'
+
+02-05-2024T12:03:05 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/warehouseConfigurationPage/warehouseNameText'
+
+02-05-2024T12:03:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/warehouseConfigurationPage/shortNameText"), ShortName): Text '' is set on object 'Object Repository/warehouseConfigurationPage/shortNameText'
+
+02-05-2024T12:03:06 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/warehouseConfigurationPage/shortNameText'
+
+02-05-2024T12:03:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/warehouseConfigurationPage/addressText"), "345 rose st"): Text '345 rose st' is set on object 'Object Repository/warehouseConfigurationPage/addressText'
+
+02-05-2024T12:03:07 - [MESSAGE][PASSED] - Text '345 rose st' is set on object 'Object Repository/warehouseConfigurationPage/addressText'
+
+02-05-2024T12:03:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/warehouseConfigurationPage/resupplyFromMainWarehouseCheckbox")): Object: 'Object Repository/warehouseConfigurationPage/resupplyFromMainWarehouseCheckbox' is clicked on
+
+02-05-2024T12:03:08 - [MESSAGE][PASSED] - Object: 'Object Repository/warehouseConfigurationPage/resupplyFromMainWarehouseCheckbox' is clicked on
+
+02-05-2024T12:03:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/warehouseConfigurationPage/saveManuallyButton")): Object: 'Object Repository/warehouseConfigurationPage/saveManuallyButton' is clicked on
+
+02-05-2024T12:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/warehouseConfigurationPage/saveManuallyButton' is clicked on
+
+02-05-2024T12:03:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/warehouseConfigurationPage/warehousesLink")): Object: 'Object Repository/warehouseConfigurationPage/warehousesLink' is clicked on
+
+02-05-2024T12:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/warehouseConfigurationPage/warehousesLink' is clicked on
+
+02-05-2024T12:03:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-05-2024T12:03:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create new product (end to end)" time="18.035" classname="Test Cases/Create new product (end to end)" status="PASSED">
+         <system-out><![CDATA[02-05-2024T12:03:10 - [TEST_CASE][PASSED] - Test Cases/Create new product (end to end): Test Cases/Create new product (end to end)
+
+02-05-2024T12:03:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-05-2024T12:03:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-05-2024T12:03:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-05-2024T12:03:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-05-2024T12:03:12 - [TEST_STEP][PASSED] - navigateToUrl("https://freelance25.odoo.com/web/login?redirect=%2Fodoo%2Faction-268%3Fcids%3D1"): Navigate to 'https://freelance25.odoo.com/web/login?redirect=%2Fodoo%2Faction-268%3Fcids%3D1' successfully
+
+02-05-2024T12:03:13 - [MESSAGE][PASSED] - Navigate to 'https://freelance25.odoo.com/web/login?redirect=%2Fodoo%2Faction-268%3Fcids%3D1' successfully
+
+02-05-2024T12:03:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Odoo/input_Email_login"), "khayati0308@gmail.com"): Text 'khayati0308@gmail.com' is set on object 'Object Repository/Page_Odoo/input_Email_login'
+
+02-05-2024T12:03:14 - [MESSAGE][PASSED] - Text 'khayati0308@gmail.com' is set on object 'Object Repository/Page_Odoo/input_Email_login'
+
+02-05-2024T12:03:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Odoo/input_Password_password"), "US8zkPuVayvEXuGpxZiGdw=="): Text ****** has been set on object 'Object Repository/Page_Odoo/input_Password_password'
+
+02-05-2024T12:03:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Odoo/input_Password_password'
+
+02-05-2024T12:03:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Odoo/button_Log in")): Object: 'Object Repository/Page_Odoo/button_Log in' is clicked on
+
+02-05-2024T12:03:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Odoo/button_Log in' is clicked on
+
+02-05-2024T12:03:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Products/button_New")): Object: 'Object Repository/Page_Products/button_New' is clicked on
+
+02-05-2024T12:03:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products/button_New' is clicked on
+
+02-05-2024T12:03:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_New/textarea_Product Name_name_0"), "burger"): Text 'burger' is set on object 'Object Repository/Page_New/textarea_Product Name_name_0'
+
+02-05-2024T12:03:20 - [MESSAGE][PASSED] - Text 'burger' is set on object 'Object Repository/Page_New/textarea_Product Name_name_0'
+
+02-05-2024T12:03:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_New/input__list_price_0"), "50"): Text '50' is set on object 'Object Repository/Page_New/input__list_price_0'
+
+02-05-2024T12:03:21 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/Page_New/input__list_price_0'
+
+02-05-2024T12:03:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_New/input__standard_price_0"), "20"): Text '20' is set on object 'Object Repository/Page_New/input__standard_price_0'
+
+02-05-2024T12:03:23 - [MESSAGE][PASSED] - Text '20' is set on object 'Object Repository/Page_New/input__standard_price_0'
+
+02-05-2024T12:03:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_New/p_Reset Size_oe-hint oe-command-temporary-hint")): Object: 'Object Repository/Page_New/p_Reset Size_oe-hint oe-command-temporary-hint' is clicked on
+
+02-05-2024T12:03:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_New/p_Reset Size_oe-hint oe-command-temporary-hint' is clicked on
+
+02-05-2024T12:03:23 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/Page_New/div_Reset Size_description_0"), "<p style="outline: rgb(255, 0, 0) solid 2px;">testing reference</p>"): File '<p style="outline: rgb(255, 0, 0) solid 2px;">testing reference</p>' sent to object: 'Object Repository/Page_New/div_Reset Size_description_0'
+
+02-05-2024T12:03:24 - [MESSAGE][PASSED] - File '<p style="outline: rgb(255, 0, 0) solid 2px;">testing reference</p>' sent to object: 'Object Repository/Page_New/div_Reset Size_description_0'
+
+02-05-2024T12:03:24 - [TEST_STEP][PASSED] - s1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789": null
+
+02-05-2024T12:03:24 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+02-05-2024T12:03:24 - [TEST_STEP][PASSED] - sb = new java.lang.StringBuilder(): null
+
+02-05-2024T12:03:24 - [TEST_STEP][PASSED] - for ([j = 1, j <= 10, (j++)]): null
+
+02-05-2024T12:03:24 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:03:24 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:03:24 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:03:24 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:03:24 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:03:24 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:03:24 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:03:24 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:03:24 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:03:24 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:03:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_New/input_Barcode_barcode_0"), sb.toString()): Text 'bMLaHlONZq' is set on object 'Object Repository/Page_New/input_Barcode_barcode_0'
+
+02-05-2024T12:03:25 - [MESSAGE][PASSED] - Text 'bMLaHlONZq' is set on object 'Object Repository/Page_New/input_Barcode_barcode_0'
+
+02-05-2024T12:03:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_New/i_New_fa fa-cloud-upload fa-fw")): Object: 'Object Repository/Page_New/i_New_fa fa-cloud-upload fa-fw' is clicked on
+
+02-05-2024T12:03:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_New/i_New_fa fa-cloud-upload fa-fw' is clicked on
+
+02-05-2024T12:03:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_burger/span_Products")): Object: 'Object Repository/Page_burger/span_Products' is clicked on
+
+02-05-2024T12:03:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_burger/span_Products' is clicked on
+
+02-05-2024T12:03:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_burger/a_Products")): Object: 'Object Repository/Page_burger/a_Products' is clicked on
+
+02-05-2024T12:03:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_burger/a_Products' is clicked on
+
+02-05-2024T12:03:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-05-2024T12:03:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Receipts_HM" time="41.914" classname="Test Cases/Create Receipts_HM" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Create Receipts_HM FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Create Receipts/Page/inventoryLink' is visible&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)&#xa;	at Create Receipts_HM.run(Create Receipts_HM:22)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1714665763263.run(TempTestSuite1714665763263.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Create Receipts/Page/inventoryLink' located by '//a[@id='result_app_2']/img' not found&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[02-05-2024T12:03:28 - [TEST_CASE][FAILED] - Test Cases/Create Receipts_HM: Test Cases/Create Receipts_HM FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Create Receipts/Page/inventoryLink' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)
+	at Create Receipts_HM.run(Create Receipts_HM:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714665763263.run(TempTestSuite1714665763263.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Create Receipts/Page/inventoryLink' located by '//a[@id='result_app_2']/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+02-05-2024T12:03:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login to Odoo Inventory ERP System"), ["Email":Email, "Password":Password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login to Odoo Inventory ERP System' successfully
+
+02-05-2024T12:03:28 - [TEST_CASE][PASSED] - Test Cases/Login to Odoo Inventory ERP System: Test Cases/Login to Odoo Inventory ERP System
+
+02-05-2024T12:03:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-05-2024T12:03:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-05-2024T12:03:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-05-2024T12:03:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-05-2024T12:03:30 - [TEST_STEP][PASSED] - navigateToUrl("https://freelance25.odoo.com/web/login?redirect=%2Fodoo%3F"): Navigate to 'https://freelance25.odoo.com/web/login?redirect=%2Fodoo%3F' successfully
+
+02-05-2024T12:03:31 - [MESSAGE][PASSED] - Navigate to 'https://freelance25.odoo.com/web/login?redirect=%2Fodoo%3F' successfully
+
+02-05-2024T12:03:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Odoo_loginPage/txt_Email"), Email): Text '' is set on object 'Object Repository/Odoo_loginPage/txt_Email'
+
+02-05-2024T12:03:32 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Odoo_loginPage/txt_Email'
+
+02-05-2024T12:03:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Odoo_loginPage/txt_Password"), Password): Text '' is set on object 'Object Repository/Odoo_loginPage/txt_Password'
+
+02-05-2024T12:03:33 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Odoo_loginPage/txt_Password'
+
+02-05-2024T12:03:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Odoo_loginPage/btn_Login")): Object: 'Object Repository/Odoo_loginPage/btn_Login' is clicked on
+
+02-05-2024T12:03:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Odoo_loginPage/btn_Login' is clicked on
+
+02-05-2024T12:03:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login to Odoo Inventory ERP System' successfully
+
+02-05-2024T12:03:33 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("Create Receipts/Page/inventoryLink")): Unable to verify object 'Object Repository/Create Receipts/Page/inventoryLink' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Create Receipts/Page/inventoryLink' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)
+	at Create Receipts_HM.run(Create Receipts_HM:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714665763263.run(TempTestSuite1714665763263.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Create Receipts/Page/inventoryLink' located by '//a[@id='result_app_2']/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+02-05-2024T12:04:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='result_app_2']/img'. Please recheck the objects properties to make sure the desired element is located. 
+
+02-05-2024T12:04:05 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Create Receipts/Page/inventoryLink'. Try using Self-healing.
+
+02-05-2024T12:04:05 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[@id='result_app_2']/img'.
+
+02-05-2024T12:04:05 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//img[contains(@src,'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAUGSURBVHgB7Z3PbxtFFMff7DopgR4qDsAJ3CIQcIE7ByLTArlF/AGpySXqiYpjBe1u+QOgp9zIhjMCSxyCWhSKxIVbJRBSA5ItJKQK8aNNmya1d+d1Js5GaRvXO/tj9k3yPlESy3ac2J/M933XkscADMMwDMMwDMMwdhHgOJsr7zUbfrKk7kjPT/xQzHzXA4dxVgh+M30sPjr5IUgMHrjAE0Ej9pZdFeOkkP7Kqbbw8TNAcWy/y9Wd6qqvYePdy8vgGE4JGaycnAZfXACE6SzX12J86bdcWi1OCNHxNHiy8bkAcRpyIARErswX8kIGV95RK0KeHRVPWdFDHz0RTZy6HAJhyArR8aQeQN2emlAC+PcW4K+39PeuBxBOLq2RnC/khKQ1NuucGAcOJMAvt0CurT9wvhAYSTkIp6JeDwhBRsjIGlvkNq+vg1SrArSUEVdR8yWUsr9MRQwJIeNqrCk6nuTP/wJsxFl/hEyM1SrEtMaOA5UAVCK0kJx0EfutOldLLUKK1thHbk9H0vXbIFVEPSaeMlPnfLEupKwam4LdO8M5kT2estLTxy9HvlizWpOtCamwxkJV3JFPwY933+r+M3gmXOicszJfKhdiq8aWSR8n4Ld7r6nPV9XpyeGZKsZQJuGZTtCDCqlMSE01tjB/9F+Ea1uvq9VxdL+Ld2pyvFyVmEqEEKixxtyIn90WcSN+LsO1sSvQryTGShVCsMaORcfTta03tuPJHFQ1OWmVuVpKEUK9xo5CS9CrYndO5KXE+VJYiEM1dhcdTz/dfXPUnMgJqposooWvPy5Uk3MLcbXGahHZ5kReis2XBuTFEz+UkXe11djKEMdRyCV1wrKQEiBQY8lRixB6NZYOVoXQr7H1Y0WIczW2RioX4m6NrYdqhSgJ27OiIuzUWLvU2rLyYrfG2sU5Ia7VWFOcEeJqjTWFvBDXa6wppIUchBprCkkhB6nGmkJOyOrGNPw5eB4OKx4Q47/kaTjMkBNy2GEhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxCgiBIEZRe7HJrcQlDCP25veM3vA4Q5B+DbkpPjmMysnA/TEnLqh449cuBFD8u1fYMJX6+87+TIEZeJ/QLx0pvNJoc1nCs+QiZnvg0T6LZQYweGMMQSBS09gfKKoDE2pG5jp/RV9L1nd2SFIHPAVgurjqvpyUYm4CiVR6gt2poZvB3FCb/Gn1t75fWPMfVDFwE0PvbMLnXNfQslUUnsnZ65EOsbk7YFewgcpxtS8xlDHUxUyNNVvE9t+pQkgLwgBp7P8PqKRtRNP8byz28Q+zGb7pbYQ4jyMiTFiQnSN7amMmi9zTjwO61uNb7ZfDtRqmYMRYqgIKavGmmL9qZOpaC1A9Frqvy4CmvOl1BprSq1vV6HnixByFdKaDLWukEpqrCkk3tBl73ypQUilNdYUEs/2TkW/RzsxZrsmV15jTSGxQvayOBs01fFq5pqcE2s11hRyQlIWZy+qGPNVjGGZR/vWa6wpZIWkLM5+qmqyN1dUTF011hTyQjQFY0zX2OiITD76oBPcBOI4ISRFixFiQtVkbML4v51EjTXFKSEpY+YLqRpripNCNMMY89Pjl/R+DGssJJdciKf9cFZIyu58AXiBYo1lGIZhGIZhGIahzn0LTSWMXT2aBAAAAABJRU5ErkJggg==')]'.
+
+02-05-2024T12:04:05 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[3]/a/img'.
+
+02-05-2024T12:04:06 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//img[@src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAUGSURBVHgB7Z3PbxtFFMff7DopgR4qDsAJ3CIQcIE7ByLTArlF/AGpySXqiYpjBe1u+QOgp9zIhjMCSxyCWhSKxIVbJRBSA5ItJKQK8aNNmya1d+d1Js5GaRvXO/tj9k3yPlESy3ac2J/M933XkscADMMwDMMwDMMwdhHgOJsr7zUbfrKk7kjPT/xQzHzXA4dxVgh+M30sPjr5IUgMHrjAE0Ej9pZdFeOkkP7Kqbbw8TNAcWy/y9Wd6qqvYePdy8vgGE4JGaycnAZfXACE6SzX12J86bdcWi1OCNHxNHiy8bkAcRpyIARErswX8kIGV95RK0KeHRVPWdFDHz0RTZy6HAJhyArR8aQeQN2emlAC+PcW4K+39PeuBxBOLq2RnC/khKQ1NuucGAcOJMAvt0CurT9wvhAYSTkIp6JeDwhBRsjIGlvkNq+vg1SrArSUEVdR8yWUsr9MRQwJIeNqrCk6nuTP/wJsxFl/hEyM1SrEtMaOA5UAVCK0kJx0EfutOldLLUKK1thHbk9H0vXbIFVEPSaeMlPnfLEupKwam4LdO8M5kT2estLTxy9HvlizWpOtCamwxkJV3JFPwY933+r+M3gmXOicszJfKhdiq8aWSR8n4Ld7r6nPV9XpyeGZKsZQJuGZTtCDCqlMSE01tjB/9F+Ea1uvq9VxdL+Ld2pyvFyVmEqEEKixxtyIn90WcSN+LsO1sSvQryTGShVCsMaORcfTta03tuPJHFQ1OWmVuVpKEUK9xo5CS9CrYndO5KXE+VJYiEM1dhcdTz/dfXPUnMgJqposooWvPy5Uk3MLcbXGahHZ5kReis2XBuTFEz+UkXe11djKEMdRyCV1wrKQEiBQY8lRixB6NZYOVoXQr7H1Y0WIczW2RioX4m6NrYdqhSgJ27OiIuzUWLvU2rLyYrfG2sU5Ia7VWFOcEeJqjTWFvBDXa6wppIUchBprCkkhB6nGmkJOyOrGNPw5eB4OKx4Q47/kaTjMkBNy2GEhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxCgiBIEZRe7HJrcQlDCP25veM3vA4Q5B+DbkpPjmMysnA/TEnLqh449cuBFD8u1fYMJX6+87+TIEZeJ/QLx0pvNJoc1nCs+QiZnvg0T6LZQYweGMMQSBS09gfKKoDE2pG5jp/RV9L1nd2SFIHPAVgurjqvpyUYm4CiVR6gt2poZvB3FCb/Gn1t75fWPMfVDFwE0PvbMLnXNfQslUUnsnZ65EOsbk7YFewgcpxtS8xlDHUxUyNNVvE9t+pQkgLwgBp7P8PqKRtRNP8byz28Q+zGb7pbYQ4jyMiTFiQnSN7amMmi9zTjwO61uNb7ZfDtRqmYMRYqgIKavGmmL9qZOpaC1A9Frqvy4CmvOl1BprSq1vV6HnixByFdKaDLWukEpqrCkk3tBl73ypQUilNdYUEs/2TkW/RzsxZrsmV15jTSGxQvayOBs01fFq5pqcE2s11hRyQlIWZy+qGPNVjGGZR/vWa6wpZIWkLM5+qmqyN1dUTF011hTyQjQFY0zX2OiITD76oBPcBOI4ISRFixFiQtVkbML4v51EjTXFKSEpY+YLqRpripNCNMMY89Pjl/R+DGssJJdciKf9cFZIyu58AXiBYo1lGIZhGIZhGIahzn0LTSWMXT2aBAAAAABJRU5ErkJggg==']'.
+
+02-05-2024T12:04:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAUGSURBVHgB7Z3PbxtFFMff7DopgR4qDsAJ3CIQcIE7ByLTArlF/AGpySXqiYpjBe1u+QOgp9zIhjMCSxyCWhSKxIVbJRBSA5ItJKQK8aNNmya1d+d1Js5GaRvXO/tj9k3yPlESy3ac2J/M933XkscADMMwDMMwDMMwdhHgOJsr7zUbfrKk7kjPT/xQzHzXA4dxVgh+M30sPjr5IUgMHrjAE0Ej9pZdFeOkkP7Kqbbw8TNAcWy/y9Wd6qqvYePdy8vgGE4JGaycnAZfXACE6SzX12J86bdcWi1OCNHxNHiy8bkAcRpyIARErswX8kIGV95RK0KeHRVPWdFDHz0RTZy6HAJhyArR8aQeQN2emlAC+PcW4K+39PeuBxBOLq2RnC/khKQ1NuucGAcOJMAvt0CurT9wvhAYSTkIp6JeDwhBRsjIGlvkNq+vg1SrArSUEVdR8yWUsr9MRQwJIeNqrCk6nuTP/wJsxFl/hEyM1SrEtMaOA5UAVCK0kJx0EfutOldLLUKK1thHbk9H0vXbIFVEPSaeMlPnfLEupKwam4LdO8M5kT2estLTxy9HvlizWpOtCamwxkJV3JFPwY933+r+M3gmXOicszJfKhdiq8aWSR8n4Ld7r6nPV9XpyeGZKsZQJuGZTtCDCqlMSE01tjB/9F+Ea1uvq9VxdL+Ld2pyvFyVmEqEEKixxtyIn90WcSN+LsO1sSvQryTGShVCsMaORcfTta03tuPJHFQ1OWmVuVpKEUK9xo5CS9CrYndO5KXE+VJYiEM1dhcdTz/dfXPUnMgJqposooWvPy5Uk3MLcbXGahHZ5kReis2XBuTFEz+UkXe11djKEMdRyCV1wrKQEiBQY8lRixB6NZYOVoXQr7H1Y0WIczW2RioX4m6NrYdqhSgJ27OiIuzUWLvU2rLyYrfG2sU5Ia7VWFOcEeJqjTWFvBDXa6wppIUchBprCkkhB6nGmkJOyOrGNPw5eB4OKx4Q47/kaTjMkBNy2GEhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxGAhxCgiBIEZRe7HJrcQlDCP25veM3vA4Q5B+DbkpPjmMysnA/TEnLqh449cuBFD8u1fYMJX6+87+TIEZeJ/QLx0pvNJoc1nCs+QiZnvg0T6LZQYweGMMQSBS09gfKKoDE2pG5jp/RV9L1nd2SFIHPAVgurjqvpyUYm4CiVR6gt2poZvB3FCb/Gn1t75fWPMfVDFwE0PvbMLnXNfQslUUnsnZ65EOsbk7YFewgcpxtS8xlDHUxUyNNVvE9t+pQkgLwgBp7P8PqKRtRNP8byz28Q+zGb7pbYQ4jyMiTFiQnSN7amMmi9zTjwO61uNb7ZfDtRqmYMRYqgIKavGmmL9qZOpaC1A9Frqvy4CmvOl1BprSq1vV6HnixByFdKaDLWukEpqrCkk3tBl73ypQUilNdYUEs/2TkW/RzsxZrsmV15jTSGxQvayOBs01fFq5pqcE2s11hRyQlIWZy+qGPNVjGGZR/vWa6wpZIWkLM5+qmqyN1dUTF011hTyQjQFY0zX2OiITD76oBPcBOI4ISRFixFiQtVkbML4v51EjTXFKSEpY+YLqRpripNCNMMY89Pjl/R+DGssJJdciKf9cFZIyu58AXiBYo1lGIZhGIZhGIahzn0LTSWMXT2aBAAAAABJRU5ErkJggg==']'. Please recheck the objects properties to make sure the desired element is located. 
+
+02-05-2024T12:04:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #result_app_2 > img.o_app_icon.rounded-3'. Please recheck the objects properties to make sure the desired element is located. 
+
+02-05-2024T12:04:09 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Create Receipts/Page/inventoryLink' located by '//a[@id='result_app_2']/img' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Create Receipts/Page/inventoryLink' located by '//a[@id='result_app_2']/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)
+	at Create Receipts_HM.run(Create Receipts_HM:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714665763263.run(TempTestSuite1714665763263.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\UmaSankaran\\git\\OdooInventoryKatalon\\newcode\\OdooInventoryKatalon\\05-02\\Reports\\20240502_120243\\Scrap Inventory\\20240502_120243\\1714665849322.png]]
+
+02-05-2024T12:04:10 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Create Receipts/Page/inventoryLink' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Create Receipts/Page/inventoryLink' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)
+	at Create Receipts_HM.run(Create Receipts_HM:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714665763263.run(TempTestSuite1714665763263.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Create Receipts/Page/inventoryLink' located by '//a[@id='result_app_2']/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+[[ATTACHMENT|C:\\Users\\UmaSankaran\\git\\OdooInventoryKatalon\\newcode\\OdooInventoryKatalon\\05-02\\Reports\\20240502_120243\\Scrap Inventory\\20240502_120243\\1714665849828.png]]]]></system-out>
+         <system-err><![CDATA[02-05-2024T12:03:28 - [TEST_CASE][FAILED] - Test Cases/Create Receipts_HM: Test Cases/Create Receipts_HM FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Create Receipts/Page/inventoryLink' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)
+	at Create Receipts_HM.run(Create Receipts_HM:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714665763263.run(TempTestSuite1714665763263.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Create Receipts/Page/inventoryLink' located by '//a[@id='result_app_2']/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login to Odoo Inventory ERP System" time="7.914" classname="Test Cases/Login to Odoo Inventory ERP System" status="PASSED">
+         <system-out><![CDATA[02-05-2024T12:04:10 - [TEST_CASE][PASSED] - Test Cases/Login to Odoo Inventory ERP System: Test Cases/Login to Odoo Inventory ERP System
+
+02-05-2024T12:04:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-05-2024T12:04:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+02-05-2024T12:04:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-05-2024T12:04:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-05-2024T12:04:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-05-2024T12:04:12 - [TEST_STEP][PASSED] - navigateToUrl("https://freelance25.odoo.com/web/login?redirect=%2Fodoo%3F"): Navigate to 'https://freelance25.odoo.com/web/login?redirect=%2Fodoo%3F' successfully
+
+02-05-2024T12:04:14 - [MESSAGE][PASSED] - Navigate to 'https://freelance25.odoo.com/web/login?redirect=%2Fodoo%3F' successfully
+
+02-05-2024T12:04:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Odoo_loginPage/txt_Email"), Email): Text 'boybawang1900@gmail.com' is set on object 'Object Repository/Odoo_loginPage/txt_Email'
+
+02-05-2024T12:04:15 - [MESSAGE][PASSED] - Text 'boybawang1900@gmail.com' is set on object 'Object Repository/Odoo_loginPage/txt_Email'
+
+02-05-2024T12:04:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Odoo_loginPage/txt_Password"), Password): Text 'OdooLogin@1234' is set on object 'Object Repository/Odoo_loginPage/txt_Password'
+
+02-05-2024T12:04:16 - [MESSAGE][PASSED] - Text 'OdooLogin@1234' is set on object 'Object Repository/Odoo_loginPage/txt_Password'
+
+02-05-2024T12:04:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Odoo_loginPage/btn_Login")): Object: 'Object Repository/Odoo_loginPage/btn_Login' is clicked on
+
+02-05-2024T12:04:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Odoo_loginPage/btn_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Modify a Warehouse" time="0.088" classname="Test Cases/Modify a Warehouse" status="PASSED">
+         <system-out><![CDATA[02-05-2024T12:04:18 - [TEST_CASE][PASSED] - Test Cases/Modify a Warehouse: Test Cases/Modify a Warehouse
+
+02-05-2024T12:04:18 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Move Stocks from Source Location to Other Location" time="0.014" classname="Test Cases/Move Stocks from Source Location to Other Location" status="PASSED">
+         <system-out><![CDATA[02-05-2024T12:04:18 - [TEST_CASE][PASSED] - Test Cases/Move Stocks from Source Location to Other Location: Test Cases/Move Stocks from Source Location to Other Location
+
+02-05-2024T12:04:18 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Move stocks from warehouse to scrap" time="0.248" classname="Test Cases/Move stocks from warehouse to scrap" status="ERROR">
+         <error type="ERROR" message="Test Cases/Move stocks from warehouse to scrap FAILED.&#xa;Reason:&#xa;groovy.lang.MissingPropertyException: No such property: a for class: Script1712863925861&#xa;	at Move stocks from warehouse to scrap.run(Move stocks from warehouse to scrap:20)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1714665763263.run(TempTestSuite1714665763263.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[02-05-2024T12:04:18 - [TEST_CASE][ERROR] - Test Cases/Move stocks from warehouse to scrap: Test Cases/Move stocks from warehouse to scrap FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1712863925861
+	at Move stocks from warehouse to scrap.run(Move stocks from warehouse to scrap:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714665763263.run(TempTestSuite1714665763263.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+02-05-2024T12:04:18 - [TEST_STEP][ERROR] - callTestCase(findTestCase("Login to Odoo Inventory ERP System"), ["Email":a, "Password":password], STOP_ON_FAILURE): Test Cases/Move stocks from warehouse to scrap FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1712863925861
+	at Move stocks from warehouse to scrap.run(Move stocks from warehouse to scrap:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714665763263.run(TempTestSuite1714665763263.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+02-05-2024T12:04:18 - [MESSAGE][ERROR] - Test Cases/Move stocks from warehouse to scrap FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1712863925861
+	at Move stocks from warehouse to scrap.run(Move stocks from warehouse to scrap:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714665763263.run(TempTestSuite1714665763263.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[02-05-2024T12:04:18 - [TEST_CASE][ERROR] - Test Cases/Move stocks from warehouse to scrap: Test Cases/Move stocks from warehouse to scrap FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1712863925861
+	at Move stocks from warehouse to scrap.run(Move stocks from warehouse to scrap:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714665763263.run(TempTestSuite1714665763263.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OIEMP7-27 Create a Warehouse" time="18.17" classname="Test Cases/OIEMP7-27 Create a Warehouse" status="PASSED">
+         <system-out><![CDATA[02-05-2024T12:04:18 - [TEST_CASE][PASSED] - Test Cases/OIEMP7-27 Create a Warehouse: Test Cases/OIEMP7-27 Create a Warehouse
+
+02-05-2024T12:04:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login to Odoo Inventory ERP System"), ["Email":"vinita.gaikwad07@gmail.com", "Password":"Test@123"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login to Odoo Inventory ERP System' successfully
+
+02-05-2024T12:04:18 - [TEST_CASE][PASSED] - Test Cases/Login to Odoo Inventory ERP System: Test Cases/Login to Odoo Inventory ERP System
+
+02-05-2024T12:04:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-05-2024T12:04:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+02-05-2024T12:04:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-05-2024T12:04:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-05-2024T12:04:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-05-2024T12:04:21 - [TEST_STEP][PASSED] - navigateToUrl("https://freelance25.odoo.com/web/login?redirect=%2Fodoo%3F"): Navigate to 'https://freelance25.odoo.com/web/login?redirect=%2Fodoo%3F' successfully
+
+02-05-2024T12:04:22 - [MESSAGE][PASSED] - Navigate to 'https://freelance25.odoo.com/web/login?redirect=%2Fodoo%3F' successfully
+
+02-05-2024T12:04:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Odoo_loginPage/txt_Email"), Email): Text 'vinita.gaikwad07@gmail.com' is set on object 'Object Repository/Odoo_loginPage/txt_Email'
+
+02-05-2024T12:04:23 - [MESSAGE][PASSED] - Text 'vinita.gaikwad07@gmail.com' is set on object 'Object Repository/Odoo_loginPage/txt_Email'
+
+02-05-2024T12:04:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Odoo_loginPage/txt_Password"), Password): Text 'Test@123' is set on object 'Object Repository/Odoo_loginPage/txt_Password'
+
+02-05-2024T12:04:24 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Odoo_loginPage/txt_Password'
+
+02-05-2024T12:04:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Odoo_loginPage/btn_Login")): Object: 'Object Repository/Odoo_loginPage/btn_Login' is clicked on
+
+02-05-2024T12:04:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Odoo_loginPage/btn_Login' is clicked on
+
+02-05-2024T12:04:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login to Odoo Inventory ERP System' successfully
+
+02-05-2024T12:04:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/homeMenuPage/inventoryLink")): Object: 'Object Repository/homeMenuPage/inventoryLink' is clicked on
+
+02-05-2024T12:04:27 - [MESSAGE][PASSED] - Object: 'Object Repository/homeMenuPage/inventoryLink' is clicked on
+
+02-05-2024T12:04:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/inventoryPage/configurationMenu"), 2): Object 'Object Repository/inventoryPage/configurationMenu' is present
+
+02-05-2024T12:04:28 - [MESSAGE][PASSED] - Object 'Object Repository/inventoryPage/configurationMenu' is present
+
+02-05-2024T12:04:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/configurationMenu")): Object: 'Object Repository/inventoryPage/configurationMenu' is clicked on
+
+02-05-2024T12:04:28 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/configurationMenu' is clicked on
+
+02-05-2024T12:04:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/warehousesSubMenu")): Object: 'Object Repository/inventoryPage/warehousesSubMenu' is clicked on
+
+02-05-2024T12:04:28 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/warehousesSubMenu' is clicked on
+
+02-05-2024T12:04:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/warehousesPage/newButton")): Object: 'Object Repository/warehousesPage/newButton' is clicked on
+
+02-05-2024T12:04:29 - [MESSAGE][PASSED] - Object: 'Object Repository/warehousesPage/newButton' is clicked on
+
+02-05-2024T12:04:29 - [TEST_STEP][PASSED] - s1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz": null
+
+02-05-2024T12:04:29 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+02-05-2024T12:04:29 - [TEST_STEP][PASSED] - sb = new java.lang.StringBuilder(): null
+
+02-05-2024T12:04:29 - [TEST_STEP][PASSED] - for ([j = 1, j <= 10, (j++)]): null
+
+02-05-2024T12:04:29 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:04:29 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:04:29 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:04:29 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:04:29 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:04:29 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:04:29 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:04:29 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:04:29 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:04:29 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:04:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/warehouseConfigurationPage/warehouseNameText"), sb.toString()): Text 'WfNglEaOiN' is set on object 'Object Repository/warehouseConfigurationPage/warehouseNameText'
+
+02-05-2024T12:04:30 - [MESSAGE][PASSED] - Text 'WfNglEaOiN' is set on object 'Object Repository/warehouseConfigurationPage/warehouseNameText'
+
+02-05-2024T12:04:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/warehouseConfigurationPage/shortNameText"), sb.toString()): Text 'WfNglEaOiN' is set on object 'Object Repository/warehouseConfigurationPage/shortNameText'
+
+02-05-2024T12:04:31 - [MESSAGE][PASSED] - Text 'WfNglEaOiN' is set on object 'Object Repository/warehouseConfigurationPage/shortNameText'
+
+02-05-2024T12:04:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/warehouseConfigurationPage/addressText"), "345 rose st"): Text '345 rose st' is set on object 'Object Repository/warehouseConfigurationPage/addressText'
+
+02-05-2024T12:04:32 - [MESSAGE][PASSED] - Text '345 rose st' is set on object 'Object Repository/warehouseConfigurationPage/addressText'
+
+02-05-2024T12:04:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/warehouseConfigurationPage/resupplyFromMainWarehouseCheckbox")): Object: 'Object Repository/warehouseConfigurationPage/resupplyFromMainWarehouseCheckbox' is clicked on
+
+02-05-2024T12:04:33 - [MESSAGE][PASSED] - Object: 'Object Repository/warehouseConfigurationPage/resupplyFromMainWarehouseCheckbox' is clicked on
+
+02-05-2024T12:04:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/warehouseConfigurationPage/saveManuallyButton")): Object: 'Object Repository/warehouseConfigurationPage/saveManuallyButton' is clicked on
+
+02-05-2024T12:04:34 - [MESSAGE][PASSED] - Object: 'Object Repository/warehouseConfigurationPage/saveManuallyButton' is clicked on
+
+02-05-2024T12:04:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/warehouseConfigurationPage/warehousesLink")): Object: 'Object Repository/warehouseConfigurationPage/warehousesLink' is clicked on
+
+02-05-2024T12:04:35 - [MESSAGE][PASSED] - Object: 'Object Repository/warehouseConfigurationPage/warehousesLink' is clicked on
+
+02-05-2024T12:04:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/warehousesPage/warehouseName"), 0): Object 'Object Repository/warehousesPage/warehouseName' is present
+
+02-05-2024T12:04:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-05-2024T12:04:36 - [MESSAGE][PASSED] - Object 'Object Repository/warehousesPage/warehouseName' is present
+
+02-05-2024T12:04:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-05-2024T12:04:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OIEMP7-28 Modify an Existing Warehouse" time="50.583" classname="Test Cases/OIEMP7-28 Modify an Existing Warehouse" status="PASSED">
+         <system-out><![CDATA[02-05-2024T12:04:36 - [TEST_CASE][PASSED] - Test Cases/OIEMP7-28 Modify an Existing Warehouse: Test Cases/OIEMP7-28 Modify an Existing Warehouse
+
+02-05-2024T12:04:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login to Odoo Inventory ERP System"), ["Email":"vinita.gaikwad07@gmail.com", "Password":"Test@123"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login to Odoo Inventory ERP System' successfully
+
+02-05-2024T12:04:37 - [TEST_CASE][PASSED] - Test Cases/Login to Odoo Inventory ERP System: Test Cases/Login to Odoo Inventory ERP System
+
+02-05-2024T12:04:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-05-2024T12:04:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-05-2024T12:04:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-05-2024T12:04:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-05-2024T12:04:38 - [TEST_STEP][PASSED] - navigateToUrl("https://freelance25.odoo.com/web/login?redirect=%2Fodoo%3F"): Navigate to 'https://freelance25.odoo.com/web/login?redirect=%2Fodoo%3F' successfully
+
+02-05-2024T12:04:39 - [MESSAGE][PASSED] - Navigate to 'https://freelance25.odoo.com/web/login?redirect=%2Fodoo%3F' successfully
+
+02-05-2024T12:04:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Odoo_loginPage/txt_Email"), Email): Text 'vinita.gaikwad07@gmail.com' is set on object 'Object Repository/Odoo_loginPage/txt_Email'
+
+02-05-2024T12:04:41 - [MESSAGE][PASSED] - Text 'vinita.gaikwad07@gmail.com' is set on object 'Object Repository/Odoo_loginPage/txt_Email'
+
+02-05-2024T12:04:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Odoo_loginPage/txt_Password"), Password): Text 'Test@123' is set on object 'Object Repository/Odoo_loginPage/txt_Password'
+
+02-05-2024T12:04:41 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Odoo_loginPage/txt_Password'
+
+02-05-2024T12:04:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Odoo_loginPage/btn_Login")): Object: 'Object Repository/Odoo_loginPage/btn_Login' is clicked on
+
+02-05-2024T12:04:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Odoo_loginPage/btn_Login' is clicked on
+
+02-05-2024T12:04:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login to Odoo Inventory ERP System' successfully
+
+02-05-2024T12:04:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/homeMenuPage/inventoryLink")): Object: 'Object Repository/homeMenuPage/inventoryLink' is clicked on
+
+02-05-2024T12:04:45 - [MESSAGE][PASSED] - Object: 'Object Repository/homeMenuPage/inventoryLink' is clicked on
+
+02-05-2024T12:04:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/configurationMenu")): Object: 'Object Repository/inventoryPage/configurationMenu' is clicked on
+
+02-05-2024T12:04:46 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/configurationMenu' is clicked on
+
+02-05-2024T12:04:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/warehousesSubMenu")): Object: 'Object Repository/inventoryPage/warehousesSubMenu' is clicked on
+
+02-05-2024T12:04:46 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/warehousesSubMenu' is clicked on
+
+02-05-2024T12:04:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/warehousesPage/newButton")): Object: 'Object Repository/warehousesPage/newButton' is clicked on
+
+02-05-2024T12:04:47 - [MESSAGE][PASSED] - Object: 'Object Repository/warehousesPage/newButton' is clicked on
+
+02-05-2024T12:04:47 - [TEST_STEP][PASSED] - s1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz": null
+
+02-05-2024T12:04:47 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+02-05-2024T12:04:47 - [TEST_STEP][PASSED] - sb = new java.lang.StringBuilder(): null
+
+02-05-2024T12:04:47 - [TEST_STEP][PASSED] - for ([j = 1, j <= 10, (j++)]): null
+
+02-05-2024T12:04:47 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:04:47 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:04:47 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:04:47 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:04:47 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:04:47 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:04:47 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:04:47 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:04:47 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:04:47 - [TEST_STEP][PASSED] - sb.append(s1.charAt(rand.nextInt(s1.length()))): null
+
+02-05-2024T12:04:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/warehouseConfigurationPage/warehouseNameText"), sb.toString()): Text 'NQaIGMnAmx' is set on object 'Object Repository/warehouseConfigurationPage/warehouseNameText'
+
+02-05-2024T12:04:49 - [MESSAGE][PASSED] - Text 'NQaIGMnAmx' is set on object 'Object Repository/warehouseConfigurationPage/warehouseNameText'
+
+02-05-2024T12:04:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/warehouseConfigurationPage/shortNameText"), sb.toString()): Text 'NQaIGMnAmx' is set on object 'Object Repository/warehouseConfigurationPage/shortNameText'
+
+02-05-2024T12:04:50 - [MESSAGE][PASSED] - Text 'NQaIGMnAmx' is set on object 'Object Repository/warehouseConfigurationPage/shortNameText'
+
+02-05-2024T12:04:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/warehouseConfigurationPage/addressText"), "345 rose st"): Text '345 rose st' is set on object 'Object Repository/warehouseConfigurationPage/addressText'
+
+02-05-2024T12:04:50 - [MESSAGE][PASSED] - Text '345 rose st' is set on object 'Object Repository/warehouseConfigurationPage/addressText'
+
+02-05-2024T12:04:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/warehouseConfigurationPage/resupplyFromMainWarehouseCheckbox")): Object: 'Object Repository/warehouseConfigurationPage/resupplyFromMainWarehouseCheckbox' is clicked on
+
+02-05-2024T12:04:51 - [MESSAGE][PASSED] - Object: 'Object Repository/warehouseConfigurationPage/resupplyFromMainWarehouseCheckbox' is clicked on
+
+02-05-2024T12:04:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/warehouseConfigurationPage/saveManuallyButton")): Object: 'Object Repository/warehouseConfigurationPage/saveManuallyButton' is clicked on
+
+02-05-2024T12:04:52 - [MESSAGE][PASSED] - Object: 'Object Repository/warehouseConfigurationPage/saveManuallyButton' is clicked on
+
+02-05-2024T12:04:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/warehouseConfigurationPage/actionsMenu")): Object: 'Object Repository/warehouseConfigurationPage/actionsMenu' is clicked on
+
+02-05-2024T12:04:54 - [MESSAGE][PASSED] - Object: 'Object Repository/warehouseConfigurationPage/actionsMenu' is clicked on
+
+02-05-2024T12:04:54 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/warehouseConfigurationPage/archiveSetting")): Object: 'Object Repository/warehouseConfigurationPage/archiveSetting' is hovered
+
+02-05-2024T12:05:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html[1]/body[@class="o_web_client"]/div[@class="o-main-components-container"]/div[@class="o-overlay-container"]/div[@class="o_popover popover mw-100 o-dropdown--menu dropdown-menu mx-0 lh-base"]/span[@class="o-dropdown-item dropdown-item o-navigable o_menu_item focus"]/i[@class="fa-fw oi-fw me-1 oi oi-archive"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+02-05-2024T12:05:25 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/warehouseConfigurationPage/archiveSetting'. Try using Self-healing.
+
+02-05-2024T12:05:25 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/warehouseConfigurationPage/archiveSetting' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Quebec Warehouse'])[1]/following::span[1]'.
+
+02-05-2024T12:05:26 - [MESSAGE][PASSED] - Object: 'Object Repository/warehouseConfigurationPage/archiveSetting' is hovered
+
+02-05-2024T12:05:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/warehouseConfigurationPage/archiveSetting"), STOP_ON_FAILURE): Object: 'Object Repository/warehouseConfigurationPage/archiveSetting' is clicked on
+
+02-05-2024T12:05:26 - [MESSAGE][PASSED] - Object: 'Object Repository/warehouseConfigurationPage/archiveSetting' is clicked on
+
+02-05-2024T12:05:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/warehouseConfigurationPage/archiveButton")): Object: 'Object Repository/warehouseConfigurationPage/archiveButton' is clicked on
+
+02-05-2024T12:05:27 - [MESSAGE][PASSED] - Object: 'Object Repository/warehouseConfigurationPage/archiveButton' is clicked on
+
+02-05-2024T12:05:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-05-2024T12:05:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OIEMP7-29 DeleteArchive an Existing Warehouse" time="0.017" classname="Test Cases/OIEMP7-29 DeleteArchive an Existing Warehouse" status="PASSED">
+         <system-out><![CDATA[02-05-2024T12:05:27 - [TEST_CASE][PASSED] - Test Cases/OIEMP7-29 DeleteArchive an Existing Warehouse: Test Cases/OIEMP7-29 DeleteArchive an Existing Warehouse
+
+02-05-2024T12:05:27 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Replenish Stock from Main Warehouse" time="7.559" classname="Test Cases/Replenish Stock from Main Warehouse" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Replenish Stock from Main Warehouse FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on image&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickImageKeyword.clickImage(ClickImageKeyword.groovy:90)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickImageKeyword.execute(ClickImageKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.clickImage(WebUiBuiltInKeywords.groovy:2779)&#xa;	at Replenish Stock from Main Warehouse.run(Replenish Stock from Main Warehouse:23)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1714665763263.run(TempTestSuite1714665763263.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: java.lang.IllegalArgumentException: This object don't have IMAGE_FILE property, please add it&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickImageKeyword$_clickImage_closure1.doCall(ClickImageKeyword.groovy:77)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickImageKeyword$_clickImage_closure1.call(ClickImageKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[02-05-2024T12:05:27 - [TEST_CASE][FAILED] - Test Cases/Replenish Stock from Main Warehouse: Test Cases/Replenish Stock from Main Warehouse FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on image
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickImageKeyword.clickImage(ClickImageKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickImageKeyword.execute(ClickImageKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.clickImage(WebUiBuiltInKeywords.groovy:2779)
+	at Replenish Stock from Main Warehouse.run(Replenish Stock from Main Warehouse:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714665763263.run(TempTestSuite1714665763263.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: This object don't have IMAGE_FILE property, please add it
+	at com.kms.katalon.core.webui.keyword.builtin.ClickImageKeyword$_clickImage_closure1.doCall(ClickImageKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickImageKeyword$_clickImage_closure1.call(ClickImageKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+02-05-2024T12:05:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login to Odoo Inventory ERP System"), ["Email":"boybawang1900@gmail.com", "Password":"OdooLogin@1234"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login to Odoo Inventory ERP System' successfully
+
+02-05-2024T12:05:27 - [TEST_CASE][PASSED] - Test Cases/Login to Odoo Inventory ERP System: Test Cases/Login to Odoo Inventory ERP System
+
+02-05-2024T12:05:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-05-2024T12:05:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-05-2024T12:05:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-05-2024T12:05:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-05-2024T12:05:29 - [TEST_STEP][PASSED] - navigateToUrl("https://freelance25.odoo.com/web/login?redirect=%2Fodoo%3F"): Navigate to 'https://freelance25.odoo.com/web/login?redirect=%2Fodoo%3F' successfully
+
+02-05-2024T12:05:30 - [MESSAGE][PASSED] - Navigate to 'https://freelance25.odoo.com/web/login?redirect=%2Fodoo%3F' successfully
+
+02-05-2024T12:05:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Odoo_loginPage/txt_Email"), Email): Text 'boybawang1900@gmail.com' is set on object 'Object Repository/Odoo_loginPage/txt_Email'
+
+02-05-2024T12:05:31 - [MESSAGE][PASSED] - Text 'boybawang1900@gmail.com' is set on object 'Object Repository/Odoo_loginPage/txt_Email'
+
+02-05-2024T12:05:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Odoo_loginPage/txt_Password"), Password): Text 'OdooLogin@1234' is set on object 'Object Repository/Odoo_loginPage/txt_Password'
+
+02-05-2024T12:05:32 - [MESSAGE][PASSED] - Text 'OdooLogin@1234' is set on object 'Object Repository/Odoo_loginPage/txt_Password'
+
+02-05-2024T12:05:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Odoo_loginPage/btn_Login")): Object: 'Object Repository/Odoo_loginPage/btn_Login' is clicked on
+
+02-05-2024T12:05:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Odoo_loginPage/btn_Login' is clicked on
+
+02-05-2024T12:05:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login to Odoo Inventory ERP System' successfully
+
+02-05-2024T12:05:34 - [TEST_STEP][FAILED] - clickImage(findTestObject("homeMenuPage/inventoryLink")): Unable to click on image (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on image
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickImageKeyword.clickImage(ClickImageKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickImageKeyword.execute(ClickImageKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.clickImage(WebUiBuiltInKeywords.groovy:2779)
+	at Replenish Stock from Main Warehouse.run(Replenish Stock from Main Warehouse:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714665763263.run(TempTestSuite1714665763263.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: This object don't have IMAGE_FILE property, please add it
+	at com.kms.katalon.core.webui.keyword.builtin.ClickImageKeyword$_clickImage_closure1.doCall(ClickImageKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickImageKeyword$_clickImage_closure1.call(ClickImageKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickImageKeyword.clickImage(ClickImageKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickImageKeyword.execute(ClickImageKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.clickImage(WebUiBuiltInKeywords.groovy:2779)
+	at Script1713283605917.run(Script1713283605917.groovy:23)
+	... 15 more
+)
+
+02-05-2024T12:05:34 - [MESSAGE][FAILED] - Unable to click on image (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on image
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickImageKeyword.clickImage(ClickImageKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickImageKeyword.execute(ClickImageKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.clickImage(WebUiBuiltInKeywords.groovy:2779)
+	at Replenish Stock from Main Warehouse.run(Replenish Stock from Main Warehouse:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714665763263.run(TempTestSuite1714665763263.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: This object don't have IMAGE_FILE property, please add it
+	at com.kms.katalon.core.webui.keyword.builtin.ClickImageKeyword$_clickImage_closure1.doCall(ClickImageKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickImageKeyword$_clickImage_closure1.call(ClickImageKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickImageKeyword.clickImage(ClickImageKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickImageKeyword.execute(ClickImageKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.clickImage(WebUiBuiltInKeywords.groovy:2779)
+	at Script1713283605917.run(Script1713283605917.groovy:23)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\UmaSankaran\\git\\OdooInventoryKatalon\\newcode\\OdooInventoryKatalon\\05-02\\Reports\\20240502_120243\\Scrap Inventory\\20240502_120243\\1714665934533.png]]]]></system-out>
+         <system-err><![CDATA[02-05-2024T12:05:27 - [TEST_CASE][FAILED] - Test Cases/Replenish Stock from Main Warehouse: Test Cases/Replenish Stock from Main Warehouse FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on image
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickImageKeyword.clickImage(ClickImageKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickImageKeyword.execute(ClickImageKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.clickImage(WebUiBuiltInKeywords.groovy:2779)
+	at Replenish Stock from Main Warehouse.run(Replenish Stock from Main Warehouse:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714665763263.run(TempTestSuite1714665763263.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: This object don't have IMAGE_FILE property, please add it
+	at com.kms.katalon.core.webui.keyword.builtin.ClickImageKeyword$_clickImage_closure1.doCall(ClickImageKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickImageKeyword$_clickImage_closure1.call(ClickImageKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/restful-booker API Testing" time="2.662" classname="Test Cases/restful-booker API Testing" status="PASSED">
+         <system-out><![CDATA[02-05-2024T12:05:34 - [TEST_CASE][PASSED] - Test Cases/restful-booker API Testing: Test Cases/restful-booker API Testing
+
+02-05-2024T12:05:35 - [TEST_STEP][PASSED] - sendRequest(findTestObject("restful-booker API/Booking - GetBookingIds")): Send request successfully
+
+02-05-2024T12:05:37 - [MESSAGE][INFO] - HAR: C:\Users\UmaSankaran\git\OdooInventoryKatalon\newcode\OdooInventoryKatalon\05-02\Reports\20240502_120243\Scrap Inventory\20240502_120243\requests\main\0.har
+
+02-05-2024T12:05:37 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sample Test Case" time="0.011" classname="Test Cases/Sample Test Case" status="PASSED">
+         <system-out><![CDATA[02-05-2024T12:05:37 - [TEST_CASE][PASSED] - Test Cases/Sample Test Case: Test Cases/Sample Test Case
+
+02-05-2024T12:05:37 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-05-2024T12:02:51 - [TEST_SUITE][FAILED] - Scrap Inventory: Test Cases/Create Receipts_HM FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Create Receipts/Page/inventoryLink' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)
+	at Create Receipts_HM.run(Create Receipts_HM:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714665763263.run(TempTestSuite1714665763263.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Create Receipts/Page/inventoryLink' located by '//a[@id='result_app_2']/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[02-05-2024T12:02:51 - [TEST_SUITE][FAILED] - Scrap Inventory: Test Cases/Create Receipts_HM FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Create Receipts/Page/inventoryLink' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)
+	at Create Receipts_HM.run(Create Receipts_HM:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714665763263.run(TempTestSuite1714665763263.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Create Receipts/Page/inventoryLink' located by '//a[@id='result_app_2']/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

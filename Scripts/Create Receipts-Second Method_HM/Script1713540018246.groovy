@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Login to Odoo Inventory ERP System'), [('Email') : Email, ('Password') : Password], FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.verifyElementVisible(findTestObject('Create Receipts/Page/inventoryLink'))
-WebUI.click(findTestObject('Create Receipts/Page/inventoryLink'))
+WebUI.click(findTestObject('homeMenuPage/inventorylink'))
 
 //WebUI.verifyElementVisible(findTestObject('Object Repository/Create Receipts/Page_Inventory Overview/span_Receipts (1)'))
 WebUI.click(findTestObject('inventoryPage/Dropdown'))

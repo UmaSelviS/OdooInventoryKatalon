@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/warehouseConfigurationPage/archiveSetting",
+      "brokenLocator": "/html[1]/body[@class\u003d\"o_web_client\"]/div[@class\u003d\"o-main-components-container\"]/div[@class\u003d\"o-overlay-container\"]/div[@class\u003d\"o_popover popover mw-100 o-dropdown--menu dropdown-menu mx-0 lh-base\"]/span[@class\u003d\"o-dropdown-item dropdown-item o-navigable o_menu_item focus\"]/i[@class\u003d\"fa-fw oi-fw me-1 oi oi-archive\"]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Quebec Warehouse\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240502_120243/Scrap Inventory/20240502_120243/Object Repository/warehouseConfigurationPage/archiveSetting_neighbor.png"
+    }
+  ]
+}

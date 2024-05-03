@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login to Odoo Inventory ERP System'), [('Email') : Email, ('Password') : Password], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Create Receipts/Page/inventoryLink'))
+WebUI.verifyElementVisible(findTestObject('homeMenuPage/inventorylink'))
 
-WebUI.click(findTestObject('Create Receipts/Page/inventoryLink'))
+WebUI.click(findTestObject('homeMenuPage/inventorylink'))
 
 WebUI.verifyElementVisible(findTestObject('inventoryPage/receipts'))
 

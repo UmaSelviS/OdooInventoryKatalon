@@ -11,4 +11,161 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>0b09d286-de70-4ecb-ba41-37465535c4d6</testSuiteGuid>
+   <testCaseLink>
+      <guid>c3247a57-634d-4b1f-8ca7-2d2cb8e376c2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create a New Warehouse</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c949b2f2-fb49-4745-ba9f-d70ac8e9d6f4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8763517a-d235-4026-adf7-74a7f9f2a58a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>35d73328-b1b9-4ffa-818b-83abca1b27fd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create new product (end to end)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9ee45fbb-a53f-471e-91e5-3f5aa876d832</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b9fbbd1c-bbbb-4819-9a78-fc7a02bd0100</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create Receipts_HM</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6ed1c7eb-2603-4481-93ca-1d76444e8a3b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>49219b50-6994-4308-9653-147b7bb7f355</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c9b24a4a-739e-482b-ae7a-be3605db0c89</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login to Odoo Inventory ERP System</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e79ef5ae-bb81-4eb4-ac72-85bfacf6a8f8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2451d822-fc41-4ca7-9b52-8611e3f0e5db</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5d15ba88-becf-4750-8637-1893879f44f5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Modify a Warehouse</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e89e865f-b36a-49b5-9ec5-337017d1d5fb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Move Stocks from Source Location to Other Location</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>215ff508-bd52-4d6c-a14b-72094f290afb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Move stocks from warehouse to scrap</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0f21480e-da78-403b-9fc3-2330f7298593</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9e1e8bf7-e2b7-4233-b81b-80cd1c89ba88</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bf30c883-5110-46a4-bfc4-e56683b38661</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OIEMP7-27 Create a Warehouse</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f563f9f0-2d5c-4a4d-930b-0e7306bf0b17</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OIEMP7-28 Modify an Existing Warehouse</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>de1cc59b-f7da-4bba-9c59-d6aab56acbb3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OIEMP7-29 DeleteArchive an Existing Warehouse</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>11598cf5-ebf8-4b2b-abc3-f93ba6f10b97</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Replenish Stock from Main Warehouse</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fa3ce543-9823-44c1-9345-751581b6c2f0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cbf69e8f-d5ec-4fb8-b1de-ecf4a0ff3863</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6ecbb655-70eb-4a8b-a9c4-62d71466a141</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/restful-booker API Testing</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2a46e526-d2c5-42cd-82d9-c5d22a4ba46b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sample Test Case</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
