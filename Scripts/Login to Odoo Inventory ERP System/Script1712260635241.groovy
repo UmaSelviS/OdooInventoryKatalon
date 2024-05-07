@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://freelance25.odoo.com/web/login?redirect=%2Fodoo%3F')
 
-WebUI.setText(findTestObject('Object Repository/Odoo_loginPage/txt_Email'), Email)
+WebUI.setText(findTestObject('Object Repository/Odoo_loginPage/txt_Email'), GlobalVariable.Email)
 
-WebUI.setText(findTestObject('Object Repository/Odoo_loginPage/txt_Password'), Password)
+WebUI.setText(findTestObject('Object Repository/Odoo_loginPage/txt_Password'), GlobalVariable.Password)
 
 WebUI.click(findTestObject('Object Repository/Odoo_loginPage/btn_Login'))
 

@@ -1,0 +1,13 @@
+{"testCaseName":"Test Cases/Create a New Warehouse","testCaseId":"Test Cases/Create a New Warehouse","iterationVariableName":""}
+{"testCaseName":"Test Cases/Create new product (end to end)","testCaseId":"Test Cases/Create new product (end to end)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Create Receipts_HM","testCaseId":"Test Cases/Create Receipts_HM","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login to Odoo Inventory ERP System","testCaseId":"Test Cases/Login to Odoo Inventory ERP System","iterationVariableName":""}
+{"testCaseName":"Test Cases/Modify a Warehouse","testCaseId":"Test Cases/Modify a Warehouse","iterationVariableName":""}
+{"testCaseName":"Test Cases/Move Stocks from Source Location to Other Location","testCaseId":"Test Cases/Move Stocks from Source Location to Other Location","iterationVariableName":""}
+{"testCaseName":"Test Cases/Move stocks from warehouse to scrap","testCaseId":"Test Cases/Move stocks from warehouse to scrap","iterationVariableName":""}
+{"testCaseName":"Test Cases/OIEMP7-27 Create a Warehouse","testCaseId":"Test Cases/OIEMP7-27 Create a Warehouse","iterationVariableName":""}
+{"testCaseName":"Test Cases/OIEMP7-28 Modify an Existing Warehouse","testCaseId":"Test Cases/OIEMP7-28 Modify an Existing Warehouse","iterationVariableName":""}
+{"testCaseName":"Test Cases/OIEMP7-29 DeleteArchive an Existing Warehouse","testCaseId":"Test Cases/OIEMP7-29 DeleteArchive an Existing Warehouse","iterationVariableName":""}
+{"testCaseName":"Test Cases/Replenish Stock from Main Warehouse","testCaseId":"Test Cases/Replenish Stock from Main Warehouse","iterationVariableName":""}
+{"testCaseName":"Test Cases/restful-booker API Testing","testCaseId":"Test Cases/restful-booker API Testing","iterationVariableName":""}
+{"testCaseName":"Test Cases/Sample Test Case","testCaseId":"Test Cases/Sample Test Case","iterationVariableName":""}

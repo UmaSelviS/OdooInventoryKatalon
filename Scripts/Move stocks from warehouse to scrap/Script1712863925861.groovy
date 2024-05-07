@@ -17,8 +17,6 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login to Odoo Inventory ERP System'), [('Email') : Email, ('Password') : password], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('homeMenuPage/inventorylink'))
 
 WebUI.click(findTestObject('inventoryPage/OperationsLink'))

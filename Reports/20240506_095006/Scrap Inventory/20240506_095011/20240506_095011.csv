@@ -1,0 +1,116 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Scrap Inventory,Chrome 123.0.0.0,,,06-05-2024 09:50:38,06-05-2024 09:53:41,3m - 2.884s,FAILED
+,,,,,,,
+Test Cases/Create a New Warehouse,Chrome 123.0.0.0,,,06-05-2024 09:50:38,06-05-2024 09:50:55,16.404s,PASSED
+"callTestCase(findTestCase(""Login to Odoo Inventory ERP System""), [""Email"":""vinita.gaikwad07@gmail.com"", ""Password"":""Test@123""], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,06-05-2024 09:50:39,06-05-2024 09:50:46,7.432s,PASSED
+"click(findTestObject(""homeMenuPage/inventorylink""))",Chrome 123.0.0.0,,,06-05-2024 09:50:46,06-05-2024 09:50:47,0.923s,PASSED
+"click(findTestObject(""inventoryPage/configurationMenu""))",Chrome 123.0.0.0,,,06-05-2024 09:50:47,06-05-2024 09:50:48,1.310s,PASSED
+"click(findTestObject(""inventoryPage/warehousesSubMenu""))",Chrome 123.0.0.0,,,06-05-2024 09:50:48,06-05-2024 09:50:49,0.528s,PASSED
+"click(findTestObject(""warehousesPage/newButton""))",Chrome 123.0.0.0,,,06-05-2024 09:50:49,06-05-2024 09:50:50,0.794s,PASSED
+"setText(findTestObject(""warehouseConfigurationPage/warehouseNameText""), WarehouseName)",Chrome 123.0.0.0,,,06-05-2024 09:50:50,06-05-2024 09:50:51,1.058s,PASSED
+"setText(findTestObject(""Object Repository/warehouseConfigurationPage/shortNameText""), ShortName)",Chrome 123.0.0.0,,,06-05-2024 09:50:51,06-05-2024 09:50:51,0.604s,PASSED
+"setText(findTestObject(""Object Repository/warehouseConfigurationPage/addressText""), ""345 rose st"")",Chrome 123.0.0.0,,,06-05-2024 09:50:51,06-05-2024 09:50:52,0.865s,PASSED
+"click(findTestObject(""Object Repository/warehouseConfigurationPage/resupplyFromMainWarehouseCheckbox""))",Chrome 123.0.0.0,,,06-05-2024 09:50:52,06-05-2024 09:50:53,0.856s,PASSED
+"click(findTestObject(""Object Repository/warehouseConfigurationPage/saveManuallyButton""))",Chrome 123.0.0.0,,,06-05-2024 09:50:53,06-05-2024 09:50:54,0.532s,PASSED
+"click(findTestObject(""Object Repository/warehouseConfigurationPage/warehousesLink""))",Chrome 123.0.0.0,,,06-05-2024 09:50:54,06-05-2024 09:50:54,0.871s,PASSED
+closeBrowser(),Chrome 123.0.0.0,,,06-05-2024 09:50:54,06-05-2024 09:50:55,0.147s,PASSED
+,,,,,,,
+Test Cases/Create new product (end to end),Chrome 123.0.0.0,,,06-05-2024 09:50:55,06-05-2024 09:51:09,14.643s,PASSED
+"openBrowser("""")",Chrome 123.0.0.0,,,06-05-2024 09:50:55,06-05-2024 09:50:56,0.840s,PASSED
+"navigateToUrl(""https://freelance25.odoo.com/web/login?redirect=%2Fodoo%2Faction-268%3Fcids%3D1"")",Chrome 123.0.0.0,,,06-05-2024 09:50:56,06-05-2024 09:50:56,0.650s,PASSED
+"setText(findTestObject(""Object Repository/Page_Odoo/input_Email_login""), ""khayati0308@gmail.com"")",Chrome 123.0.0.0,,,06-05-2024 09:50:56,06-05-2024 09:50:57,1.123s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Odoo/input_Password_password""), ""US8zkPuVayvEXuGpxZiGdw=="")",Chrome 123.0.0.0,,,06-05-2024 09:50:57,06-05-2024 09:50:58,0.363s,PASSED
+"click(findTestObject(""Object Repository/Page_Odoo/button_Log in""))",Chrome 123.0.0.0,,,06-05-2024 09:50:58,06-05-2024 09:51:00,1.723s,PASSED
+"click(findTestObject(""Object Repository/Page_Products/button_New""))",Chrome 123.0.0.0,,,06-05-2024 09:51:00,06-05-2024 09:51:01,1.166s,PASSED
+"setText(findTestObject(""Object Repository/Page_New/textarea_Product Name_name_0""), ""burger"")",Chrome 123.0.0.0,,,06-05-2024 09:51:01,06-05-2024 09:51:02,1.663s,PASSED
+"setText(findTestObject(""Object Repository/Page_New/input__list_price_0""), ""50"")",Chrome 123.0.0.0,,,06-05-2024 09:51:02,06-05-2024 09:51:03,1.110s,PASSED
+"setText(findTestObject(""Object Repository/Page_New/input__standard_price_0""), ""20"")",Chrome 123.0.0.0,,,06-05-2024 09:51:03,06-05-2024 09:51:05,1.097s,PASSED
+"click(findTestObject(""Object Repository/Page_New/p_Reset Size_oe-hint oe-command-temporary-hint""))",Chrome 123.0.0.0,,,06-05-2024 09:51:05,06-05-2024 09:51:05,0.576s,PASSED
+"uploadFile(findTestObject(""Object Repository/Page_New/div_Reset Size_description_0""), ""<p style=""outline: rgb(255, 0, 0) solid 2px;"">testing reference</p>"")",Chrome 123.0.0.0,,,06-05-2024 09:51:05,06-05-2024 09:51:06,0.913s,PASSED
+"s1 = ""ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789""",Chrome 123.0.0.0,,,06-05-2024 09:51:06,06-05-2024 09:51:06,0.001s,PASSED
+rand = new java.util.Random(),Chrome 123.0.0.0,,,06-05-2024 09:51:06,06-05-2024 09:51:06,0.007s,PASSED
+sb = new java.lang.StringBuilder(),Chrome 123.0.0.0,,,06-05-2024 09:51:06,06-05-2024 09:51:06,0.011s,PASSED
+"for ([j = 1, j <= 10, (j++)])",Chrome 123.0.0.0,,,06-05-2024 09:51:06,06-05-2024 09:51:06,0.014s,PASSED
+"setText(findTestObject(""Object Repository/Page_New/input_Barcode_barcode_0""), sb.toString())",Chrome 123.0.0.0,,,06-05-2024 09:51:06,06-05-2024 09:51:07,0.774s,PASSED
+"click(findTestObject(""Object Repository/Page_New/i_New_fa fa-cloud-upload fa-fw""))",Chrome 123.0.0.0,,,06-05-2024 09:51:07,06-05-2024 09:51:07,0.433s,PASSED
+"click(findTestObject(""Object Repository/Page_burger/span_Products""))",Chrome 123.0.0.0,,,06-05-2024 09:51:07,06-05-2024 09:51:09,1.325s,PASSED
+"click(findTestObject(""Object Repository/Page_burger/a_Products""))",Chrome 123.0.0.0,,,06-05-2024 09:51:09,06-05-2024 09:51:09,0.495s,PASSED
+closeBrowser(),Chrome 123.0.0.0,,,06-05-2024 09:51:09,06-05-2024 09:51:09,0.149s,PASSED
+,,,,,,,
+Test Cases/Create Receipts_HM,Chrome 123.0.0.0,,,06-05-2024 09:51:09,06-05-2024 09:51:48,38.711s,FAILED
+"callTestCase(findTestCase(""Login to Odoo Inventory ERP System""), [""Email"":Email, ""Password"":Password], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,06-05-2024 09:51:09,06-05-2024 09:51:14,4.110s,PASSED
+"verifyElementVisible(findTestObject(""homeMenuPage/inventorylink""))",Chrome 123.0.0.0,,,06-05-2024 09:51:14,06-05-2024 09:51:48,34.478s,FAILED
+,,,,,,,
+Test Cases/Login to Odoo Inventory ERP System,Chrome 123.0.0.0,,,06-05-2024 09:51:48,06-05-2024 09:51:53,5.311s,PASSED
+"openBrowser("""")",Chrome 123.0.0.0,,,06-05-2024 09:51:48,06-05-2024 09:51:49,0.899s,PASSED
+"navigateToUrl(""https://freelance25.odoo.com/web/login?redirect=%2Fodoo%3F"")",Chrome 123.0.0.0,,,06-05-2024 09:51:49,06-05-2024 09:51:50,0.841s,PASSED
+"setText(findTestObject(""Object Repository/Odoo_loginPage/txt_Email""), Email)",Chrome 123.0.0.0,,,06-05-2024 09:51:50,06-05-2024 09:51:51,1.098s,PASSED
+"setText(findTestObject(""Object Repository/Odoo_loginPage/txt_Password""), Password)",Chrome 123.0.0.0,,,06-05-2024 09:51:51,06-05-2024 09:51:51,0.561s,PASSED
+"click(findTestObject(""Object Repository/Odoo_loginPage/btn_Login""))",Chrome 123.0.0.0,,,06-05-2024 09:51:51,06-05-2024 09:51:53,1.838s,PASSED
+,,,,,,,
+Test Cases/Modify a Warehouse,Chrome 123.0.0.0,,,06-05-2024 09:51:53,06-05-2024 09:51:53,0.037s,PASSED
+return null,Chrome 123.0.0.0,,,06-05-2024 09:51:53,06-05-2024 09:51:53,0.000s,PASSED
+,,,,,,,
+Test Cases/Move Stocks from Source Location to Other Location,Chrome 123.0.0.0,,,06-05-2024 09:51:53,06-05-2024 09:51:53,0.007s,PASSED
+return null,Chrome 123.0.0.0,,,06-05-2024 09:51:53,06-05-2024 09:51:53,0.000s,PASSED
+,,,,,,,
+Test Cases/Move stocks from warehouse to scrap,Chrome 123.0.0.0,,Scrap Inventory,06-05-2024 09:51:53,06-05-2024 09:52:35,41.516s,FAILED
+"callTestCase(findTestCase(""Login to Odoo Inventory ERP System""), [""Email"":Email, ""Password"":password], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,06-05-2024 09:51:54,06-05-2024 09:51:58,4.886s,PASSED
+"click(findTestObject(""homeMenuPage/inventorylink""))",Chrome 123.0.0.0,,,06-05-2024 09:51:58,06-05-2024 09:52:35,36.487s,FAILED
+,,,,,,,
+Test Cases/OIEMP7-27 Create a Warehouse,Chrome 123.0.0.0,"Summary: Create a Warehouse
+Description: As a warehouse user, I should be able to create a new warehouse in the Odoo inventory.",jira-integration,06-05-2024 09:52:35,06-05-2024 09:52:49,14.182s,PASSED
+"callTestCase(findTestCase(""Login to Odoo Inventory ERP System""), [""Email"":""vinita.gaikwad07@gmail.com"", ""Password"":""Test@123""], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,06-05-2024 09:52:35,06-05-2024 09:52:40,5.320s,PASSED
+"click(findTestObject(""homeMenuPage/inventorylink""))",Chrome 123.0.0.0,,,06-05-2024 09:52:40,06-05-2024 09:52:41,0.863s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/inventoryPage/configurationMenu""), 2)",Chrome 123.0.0.0,,,06-05-2024 09:52:41,06-05-2024 09:52:42,0.818s,PASSED
+"click(findTestObject(""Object Repository/inventoryPage/configurationMenu""))",Chrome 123.0.0.0,,,06-05-2024 09:52:42,06-05-2024 09:52:42,0.285s,PASSED
+"click(findTestObject(""Object Repository/inventoryPage/warehousesSubMenu""))",Chrome 123.0.0.0,,,06-05-2024 09:52:42,06-05-2024 09:52:43,0.512s,PASSED
+"click(findTestObject(""Object Repository/warehousesPage/newButton""))",Chrome 123.0.0.0,,,06-05-2024 09:52:43,06-05-2024 09:52:44,0.745s,PASSED
+"s1 = ""ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz""",Chrome 123.0.0.0,,,06-05-2024 09:52:44,06-05-2024 09:52:44,0.001s,PASSED
+rand = new java.util.Random(),Chrome 123.0.0.0,,,06-05-2024 09:52:44,06-05-2024 09:52:44,0.001s,PASSED
+sb = new java.lang.StringBuilder(),Chrome 123.0.0.0,,,06-05-2024 09:52:44,06-05-2024 09:52:44,0.000s,PASSED
+"for ([j = 1, j <= 10, (j++)])",Chrome 123.0.0.0,,,06-05-2024 09:52:44,06-05-2024 09:52:44,0.005s,PASSED
+"setText(findTestObject(""Object Repository/warehouseConfigurationPage/warehouseNameText""), sb.toString())",Chrome 123.0.0.0,,,06-05-2024 09:52:44,06-05-2024 09:52:44,0.930s,PASSED
+"setText(findTestObject(""Object Repository/warehouseConfigurationPage/shortNameText""), sb.toString())",Chrome 123.0.0.0,,,06-05-2024 09:52:44,06-05-2024 09:52:45,0.774s,PASSED
+"setText(findTestObject(""Object Repository/warehouseConfigurationPage/addressText""), ""345 rose st"")",Chrome 123.0.0.0,,,06-05-2024 09:52:45,06-05-2024 09:52:46,0.786s,PASSED
+"click(findTestObject(""Object Repository/warehouseConfigurationPage/resupplyFromMainWarehouseCheckbox""))",Chrome 123.0.0.0,,,06-05-2024 09:52:46,06-05-2024 09:52:46,0.309s,PASSED
+"click(findTestObject(""Object Repository/warehouseConfigurationPage/saveManuallyButton""))",Chrome 123.0.0.0,,,06-05-2024 09:52:46,06-05-2024 09:52:47,0.514s,PASSED
+"click(findTestObject(""Object Repository/warehouseConfigurationPage/warehousesLink""))",Chrome 123.0.0.0,,,06-05-2024 09:52:47,06-05-2024 09:52:48,1.482s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/warehousesPage/warehouseName""), 0)",Chrome 123.0.0.0,,,06-05-2024 09:52:48,06-05-2024 09:52:49,0.600s,PASSED
+closeBrowser(),Chrome 123.0.0.0,,,06-05-2024 09:52:49,06-05-2024 09:52:49,0.129s,PASSED
+,,,,,,,
+Test Cases/OIEMP7-28 Modify an Existing Warehouse,Chrome 123.0.0.0,"Summary: Modify an Existing Warehouse
+Description: As a warehouse manager, I want to modify the warehouse layout to improve efficiency and optimize storage space.",jira-integration,06-05-2024 09:52:49,06-05-2024 09:53:34,45.346s,PASSED
+"callTestCase(findTestCase(""Login to Odoo Inventory ERP System""), [""Email"":""vinita.gaikwad07@gmail.com"", ""Password"":""Test@123""], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,06-05-2024 09:52:49,06-05-2024 09:52:54,4.782s,PASSED
+"click(findTestObject(""Object Repository/homeMenuPage/inventoryLink""))",Chrome 123.0.0.0,,,06-05-2024 09:52:54,06-05-2024 09:52:55,0.860s,PASSED
+"click(findTestObject(""Object Repository/inventoryPage/configurationMenu""))",Chrome 123.0.0.0,,,06-05-2024 09:52:55,06-05-2024 09:52:56,0.878s,PASSED
+"click(findTestObject(""Object Repository/inventoryPage/warehousesSubMenu""))",Chrome 123.0.0.0,,,06-05-2024 09:52:56,06-05-2024 09:52:56,0.519s,PASSED
+"click(findTestObject(""Object Repository/warehousesPage/newButton""))",Chrome 123.0.0.0,,,06-05-2024 09:52:56,06-05-2024 09:52:57,0.745s,PASSED
+"s1 = ""ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz""",Chrome 123.0.0.0,,,06-05-2024 09:52:57,06-05-2024 09:52:57,0.000s,PASSED
+rand = new java.util.Random(),Chrome 123.0.0.0,,,06-05-2024 09:52:57,06-05-2024 09:52:57,0.001s,PASSED
+sb = new java.lang.StringBuilder(),Chrome 123.0.0.0,,,06-05-2024 09:52:57,06-05-2024 09:52:57,0.001s,PASSED
+"for ([j = 1, j <= 10, (j++)])",Chrome 123.0.0.0,,,06-05-2024 09:52:57,06-05-2024 09:52:57,0.005s,PASSED
+"setText(findTestObject(""Object Repository/warehouseConfigurationPage/warehouseNameText""), sb.toString())",Chrome 123.0.0.0,,,06-05-2024 09:52:57,06-05-2024 09:52:58,0.898s,PASSED
+"setText(findTestObject(""Object Repository/warehouseConfigurationPage/shortNameText""), sb.toString())",Chrome 123.0.0.0,,,06-05-2024 09:52:58,06-05-2024 09:52:59,0.790s,PASSED
+"setText(findTestObject(""Object Repository/warehouseConfigurationPage/addressText""), ""345 rose st"")",Chrome 123.0.0.0,,,06-05-2024 09:52:59,06-05-2024 09:52:59,0.776s,PASSED
+"click(findTestObject(""Object Repository/warehouseConfigurationPage/resupplyFromMainWarehouseCheckbox""))",Chrome 123.0.0.0,,,06-05-2024 09:52:59,06-05-2024 09:53:00,0.291s,PASSED
+"click(findTestObject(""Object Repository/warehouseConfigurationPage/saveManuallyButton""))",Chrome 123.0.0.0,,,06-05-2024 09:53:00,06-05-2024 09:53:00,0.518s,PASSED
+"click(findTestObject(""Object Repository/warehouseConfigurationPage/actionsMenu""))",Chrome 123.0.0.0,,,06-05-2024 09:53:00,06-05-2024 09:53:02,1.718s,PASSED
+"mouseOver(findTestObject(""Object Repository/warehouseConfigurationPage/archiveSetting""))",Chrome 123.0.0.0,,,06-05-2024 09:53:02,06-05-2024 09:53:33,31.443s,PASSED
+"click(findTestObject(""Object Repository/warehouseConfigurationPage/archiveSetting""), STOP_ON_FAILURE)",Chrome 123.0.0.0,,,06-05-2024 09:53:33,06-05-2024 09:53:34,0.404s,PASSED
+"click(findTestObject(""Object Repository/warehouseConfigurationPage/archiveButton""))",Chrome 123.0.0.0,,,06-05-2024 09:53:34,06-05-2024 09:53:34,0.502s,PASSED
+closeBrowser(),Chrome 123.0.0.0,,,06-05-2024 09:53:34,06-05-2024 09:53:34,0.121s,PASSED
+,,,,,,,
+Test Cases/OIEMP7-29 DeleteArchive an Existing Warehouse,Chrome 123.0.0.0,"Summary: Delete/Archive an Existing Warehouse
+Description: As a warehouse administrator, I want to be able to delete a warehouse from Odoo Inventory to remove outdated or redundant warehouse locations.",jira-integration,06-05-2024 09:53:34,06-05-2024 09:53:34,0.007s,PASSED
+return null,Chrome 123.0.0.0,,,06-05-2024 09:53:34,06-05-2024 09:53:34,0.000s,PASSED
+,,,,,,,
+Test Cases/Replenish Stock from Main Warehouse,Chrome 123.0.0.0,,,06-05-2024 09:53:34,06-05-2024 09:53:40,5.285s,FAILED
+"callTestCase(findTestCase(""Login to Odoo Inventory ERP System""), [""Email"":""boybawang1900@gmail.com"", ""Password"":""OdooLogin@1234""], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,06-05-2024 09:53:35,06-05-2024 09:53:39,4.965s,PASSED
+"clickImage(findTestObject(""homeMenuPage/inventorylink""))",Chrome 123.0.0.0,,,06-05-2024 09:53:39,06-05-2024 09:53:40,0.236s,FAILED
+,,,,,,,
+Test Cases/restful-booker API Testing,Chrome 123.0.0.0,restful-booker API Testing,,06-05-2024 09:53:40,06-05-2024 09:53:41,1.217s,PASSED
+"sendRequest(findTestObject(""restful-booker API/Booking - GetBookingIds""))",Chrome 123.0.0.0,,,06-05-2024 09:53:40,06-05-2024 09:53:41,1.177s,PASSED
+,,,,,,,
+Test Cases/Sample Test Case,Chrome 123.0.0.0,,,06-05-2024 09:53:41,06-05-2024 09:53:41,0.005s,PASSED
+return null,Chrome 123.0.0.0,,,06-05-2024 09:53:41,06-05-2024 09:53:41,0.000s,PASSED

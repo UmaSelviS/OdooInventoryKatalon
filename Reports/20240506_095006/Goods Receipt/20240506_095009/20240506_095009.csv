@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Goods Receipt,Chrome 123.0.0.0,,,06-05-2024 09:50:24,06-05-2024 09:50:33,8.806s,PASSED
+,,,,,,,
+Test Cases/Login to Odoo Inventory ERP System,Chrome 123.0.0.0,,,06-05-2024 09:50:25,06-05-2024 09:50:33,8.616s,PASSED
+"openBrowser("""")",Chrome 123.0.0.0,,,06-05-2024 09:50:25,06-05-2024 09:50:28,3.426s,PASSED
+"navigateToUrl(""https://freelance25.odoo.com/web/login?redirect=%2Fodoo%3F"")",Chrome 123.0.0.0,,,06-05-2024 09:50:28,06-05-2024 09:50:29,0.863s,PASSED
+"setText(findTestObject(""Object Repository/Odoo_loginPage/txt_Email""), Email)",Chrome 123.0.0.0,,,06-05-2024 09:50:29,06-05-2024 09:50:30,1.251s,PASSED
+"setText(findTestObject(""Object Repository/Odoo_loginPage/txt_Password""), Password)",Chrome 123.0.0.0,,,06-05-2024 09:50:30,06-05-2024 09:50:31,0.697s,PASSED
+"click(findTestObject(""Object Repository/Odoo_loginPage/btn_Login""))",Chrome 123.0.0.0,,,06-05-2024 09:50:31,06-05-2024 09:50:33,2.015s,PASSED

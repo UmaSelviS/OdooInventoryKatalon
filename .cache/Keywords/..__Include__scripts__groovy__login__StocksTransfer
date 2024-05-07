@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "E9495FAA0B8B8C15DE85684B3A66C1B9",
+  "keywordClasses": [
+    {
+      "name": "login.StocksTransfer",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

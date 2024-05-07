@@ -17,28 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login to Odoo Inventory ERP System'), [('Email') : 'vinita.gaikwad07@gmail.com', ('Password') : 'Test@123'], 
-    FailureHandling.STOP_ON_FAILURE)
+	WebUI.callTestCase(findTestCase('Login to Odoo Inventory ERP System'), [('Email') : 'vinita.gaikwad07@gmail.com', ('Password') : 'Test@123'], 
+	    FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.click(findTestObject('homeMenuPage/inventorylink'))
+	
+	WebUI.click(findTestObject('inventoryPage/configurationMenu'))
+	
+	WebUI.click(findTestObject('inventoryPage/warehousesSubMenu'))
+	
+	WebUI.click(findTestObject('warehousesPage/newButton'))
+	
+	WebUI.setText(findTestObject('warehouseConfigurationPage/warehouseNameText'), WarehouseName)
+	
+	WebUI.setText(findTestObject('Object Repository/warehouseConfigurationPage/shortNameText'), ShortName)
+	
+	WebUI.setText(findTestObject('Object Repository/warehouseConfigurationPage/addressText'), '345 rose st')
+	
+	WebUI.click(findTestObject('Object Repository/warehouseConfigurationPage/resupplyFromMainWarehouseCheckbox'))
+	
+	WebUI.click(findTestObject('Object Repository/warehouseConfigurationPage/saveManuallyButton'))
+	
+	WebUI.click(findTestObject('Object Repository/warehouseConfigurationPage/warehousesLink'))
+	
+	WebUI.closeBrowser()
+	
 
-WebUI.click(findTestObject('homeMenuPage/inventorylink'))
-
-WebUI.click(findTestObject('inventoryPage/configurationMenu'))
-
-WebUI.click(findTestObject('inventoryPage/warehousesSubMenu'))
-
-WebUI.click(findTestObject('warehousesPage/newButton'))
-
-WebUI.setText(findTestObject('warehouseConfigurationPage/warehouseNameText'), WarehouseName)
-
-WebUI.setText(findTestObject('Object Repository/warehouseConfigurationPage/shortNameText'), ShortName)
-
-WebUI.setText(findTestObject('Object Repository/warehouseConfigurationPage/addressText'), '345 rose st')
-
-WebUI.click(findTestObject('Object Repository/warehouseConfigurationPage/resupplyFromMainWarehouseCheckbox'))
-
-WebUI.click(findTestObject('Object Repository/warehouseConfigurationPage/saveManuallyButton'))
-
-WebUI.click(findTestObject('Object Repository/warehouseConfigurationPage/warehousesLink'))
-
-WebUI.closeBrowser()
 
